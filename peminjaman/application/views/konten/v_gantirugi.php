@@ -1,0 +1,99 @@
+<script>
+  $(function () {
+    $('#example1').DataTable()
+    $('#example2').DataTable({
+      'paging'      : true,
+      'lengthChange': false,
+      'searching'   : false,
+      'ordering'    : true,
+      'info'        : true,
+      'autoWidth'   : false
+    })
+  })
+</script>
+
+<section class="content-header">
+      <h1>
+        <?php echo $title; ?>
+        <small>Proses</small>
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="active"><?php echo $title; ?></li>
+      </ol>
+    </section>
+
+    <?php
+      $data = $this->session->flashdata('sukses');
+      if ($data!="") { ?>
+        <div class="alert alert-success" role="alert"><strong>Sukses !!</strong>
+          <?php echo $data; ?>
+          <button type="button" class="close" data-dismiss="alert" aria-label="close"></button>
+          <span aria-hidden="true"></span>
+        </div>
+      <?php }
+    ?>
+
+    <div class="box">
+            <div class="box-header">
+              <h3 class="box-title"></h3>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <table id="example1" class="table table-bordered table-striped">
+                
+                <thead>
+                  <tr>
+                    <th>No</th>
+                    <th>Nama Peminjam</th>
+                    <th>Nama Barang</th>
+                    <th>Kondisi</th>
+                    <th>Tanggal Kejadian</th>
+                    <th>Tanggal Bayar</th>
+                    <th>Keterangan</th>
+                    <th>Opsi</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <?php $no=1;
+                    foreach ($datagt->result() as $rows) { ?>
+                      <tr>
+                        <td><?= $no++ ?></td>
+                        <td><?= $rows->nama ?></td>
+                        <td><?= $rows->spek_barang ?></td>
+                        <td><?= $rows->kondisi ?></td>
+                        <td><?= $rows->tgl ?></td>
+                        <td><?= $rows->tgl_bayar_gt ?></td>
+                        <td>
+                            <?php 
+                              if($rows->status_gt === '0'){
+                                echo "<i style='color:red;'>Belum diganti</i>";
+                              }elseif($rows->status_gt === '1'){
+                                echo "<i>Sudah diganti</i>";
+                              } 
+                            ?>
+                        </td>
+                        
+                        <td>
+                            <?php 
+                              if($rows->status_gt === '0'){
+                            ?>
+                              <a href="<?php echo site_url()?>ganti/bayar/<?php echo $rows->id_gt; ?>" class="btn btn-primary white-blue">Ganti</a></td>
+                            <?php 
+                               }elseif($rows->status_gt === '1'){
+                                echo "<i> - </i>";
+                              }
+                             ?>
+                        </td>
+
+                      </tr>
+                    <?php }
+                  ?>
+                </tbody>
+
+              </table>
+            </div>
+            <!-- /.box-body -->
+    </div>
+    <!-- /.box -->

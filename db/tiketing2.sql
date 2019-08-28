@@ -1,0 +1,521 @@
+/*
+ Navicat Premium Data Transfer
+
+ Source Server         : 10.1.20.11
+ Source Server Type    : MySQL
+ Source Server Version : 50559
+ Source Host           : 10.1.20.11:3306
+ Source Schema         : tiketing
+
+ Target Server Type    : MySQL
+ Target Server Version : 50559
+ File Encoding         : 65001
+
+ Date: 16/08/2018 09:49:49
+*/
+
+SET NAMES utf8mb4;
+SET FOREIGN_KEY_CHECKS = 0;
+
+-- ----------------------------
+-- Table structure for bagian_departemen
+-- ----------------------------
+DROP TABLE IF EXISTS `bagian_departemen`;
+CREATE TABLE `bagian_departemen`  (
+  `id_bagian_dept` int(11) NOT NULL AUTO_INCREMENT,
+  `nama_bagian_dept` varchar(30) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `id_dept` int(11) NOT NULL,
+  PRIMARY KEY (`id_bagian_dept`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 12 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Compact;
+
+-- ----------------------------
+-- Records of bagian_departemen
+-- ----------------------------
+INSERT INTO `bagian_departemen` VALUES (1, 'IT SUPPORT', 1);
+INSERT INTO `bagian_departemen` VALUES (2, 'WEB PROGRAMMER', 1);
+INSERT INTO `bagian_departemen` VALUES (3, 'SYSTEM DEVELOPMENT', 2);
+
+-- ----------------------------
+-- Table structure for departemen
+-- ----------------------------
+DROP TABLE IF EXISTS `departemen`;
+CREATE TABLE `departemen`  (
+  `id_dept` int(11) NOT NULL AUTO_INCREMENT,
+  `nama_dept` varchar(30) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  PRIMARY KEY (`id_dept`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 7 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Compact;
+
+-- ----------------------------
+-- Records of departemen
+-- ----------------------------
+INSERT INTO `departemen` VALUES (1, 'IT DEPT');
+INSERT INTO `departemen` VALUES (2, 'SYSTEM DEVELOPMENT');
+
+-- ----------------------------
+-- Table structure for file
+-- ----------------------------
+DROP TABLE IF EXISTS `file`;
+CREATE TABLE `file`  (
+  `id_file` int(10) NOT NULL AUTO_INCREMENT,
+  `nama` varchar(200) CHARACTER SET latin1 COLLATE latin1_swedish_ci DEFAULT NULL,
+  `type` text CHARACTER SET latin1 COLLATE latin1_swedish_ci,
+  `ukuran` varchar(5) CHARACTER SET latin1 COLLATE latin1_swedish_ci DEFAULT NULL,
+  `reported` varchar(5) CHARACTER SET latin1 COLLATE latin1_swedish_ci DEFAULT NULL,
+  `id_ticket` varchar(13) CHARACTER SET latin1 COLLATE latin1_swedish_ci DEFAULT NULL,
+  PRIMARY KEY (`id_file`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 308 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Compact;
+
+-- ----------------------------
+-- Records of file
+-- ----------------------------
+INSERT INTO `file` VALUES (84, 'CN_Ownership.jpg', 'image/jpeg', '25201', 'U0009', 'T201805300003');
+INSERT INTO `file` VALUES (85, 'MUTASI_KAS_BANK.jpg', 'image/jpeg', '75797', 'U0005', 'T201805280002');
+INSERT INTO `file` VALUES (86, 'GENERAL_LEDGER.jpg', 'image/jpeg', '13558', 'U0005', 'T201805280002');
+INSERT INTO `file` VALUES (118, 'pengalihan_IPKL2.PNG', 'image/png', '14641', 'U0008', 'T201807060004');
+INSERT INTO `file` VALUES (119, 'Capture.PNG', 'image/png', '59281', 'U0008', 'T201807060005');
+INSERT INTO `file` VALUES (122, 'error_lot_master_tenancy.png', 'image/png', '27683', 'U0006', 'T201807090008');
+INSERT INTO `file` VALUES (126, 'PL_SPK.PNG', 'image/png', '28815', 'U0008', 'T201807090010');
+INSERT INTO `file` VALUES (144, 'Update_SPK_Lama_(SPK_Direct)_09072018.zip', 'application/x-zip-compressed', '13435', 'U0011', 'T201807090009');
+INSERT INTO `file` VALUES (149, 'x_post_alloc.sql', 'application/octet-stream', '49350', 'U0011', 'T201807110011');
+INSERT INTO `file` VALUES (151, 'Pengalihan_Hak.rar', 'application/octet-stream', '9882', 'U0011', 'T201807060004');
+INSERT INTO `file` VALUES (152, 'error_import.PNG', 'image/png', '24499', 'U0008', 'T201807110013');
+INSERT INTO `file` VALUES (153, 'error_import2.PNG', 'image/png', '22421', 'U0008', 'T201807110013');
+INSERT INTO `file` VALUES (154, 'Contract_Signing_Entry_Standing.png', 'image/png', '85425', 'U0009', 'T201807160014');
+INSERT INTO `file` VALUES (155, 'Kartu_Piutang_Konsumen.jpg', 'image/jpeg', '20998', 'U0009', 'T201807180015');
+INSERT INTO `file` VALUES (156, '1s.PNG', 'image/png', '46031', 'U0008', 'T201807180016');
+INSERT INTO `file` VALUES (157, '2s.PNG', 'image/png', '35963', 'U0008', 'T201807180016');
+INSERT INTO `file` VALUES (158, 'data.jpg', 'image/jpeg', '11826', 'U0011', 'T201807180016');
+INSERT INTO `file` VALUES (159, 'master_pajak.jpg', 'image/jpeg', '10127', 'U0011', 'T201807180016');
+INSERT INTO `file` VALUES (160, 'data.jpg', 'image/jpeg', '11826', 'U0011', 'T201807180016');
+INSERT INTO `file` VALUES (161, 'master_pajak.jpg', 'image/jpeg', '10127', 'U0011', 'T201807180016');
+INSERT INTO `file` VALUES (163, 'tes_graphon.jpg', 'image/jpeg', '18036', 'U0011', 'T201807180015');
+INSERT INTO `file` VALUES (168, 'Kartu_Piutang_Konsumen_YD-GF-07.jpg', 'image/jpeg', '20521', 'U0009', 'T201807250017');
+INSERT INTO `file` VALUES (175, 'ar_laporan_piutang_konsumen.rpt', 'application/octet-stream', '17032', 'U0011', 'T201807250017');
+INSERT INTO `file` VALUES (178, 'user_active1.jpg', 'image/jpeg', '39914', 'U0006', 'T201807270018');
+INSERT INTO `file` VALUES (182, 'std_chrg_ownership.jpg', 'image/jpeg', '82105', 'U0006', 'T201807310019');
+INSERT INTO `file` VALUES (201, 'Error_Input_Activity_di_PL.png', 'image/x-png', '83693', 'U0007', 'T201808020020');
+INSERT INTO `file` VALUES (203, 'Update_PL_Activity_Master_20180802.zip', 'application/x-zip-compressed', '28928', 'U0011', 'T201808020020');
+INSERT INTO `file` VALUES (213, 'Update_PL_Activity_Master_20180802.zip', 'application/x-zip-compressed', '28928', 'U0011', 'T201808020020');
+INSERT INTO `file` VALUES (214, 'Update_Booking_Estimate_Add_Detail_25072018.zip', 'application/x-zip-compressed', '47478', 'U0011', 'T201807090010');
+INSERT INTO `file` VALUES (224, 'print_kwitansi_OR_auto.jpg', 'image/jpeg', '33265', 'U0006', 'T201808030021');
+INSERT INTO `file` VALUES (255, 'Screenshot_1.png', 'image/png', '12089', 'U0011', 'T201807090008');
+INSERT INTO `file` VALUES (256, 'de_tm.zip', 'application/x-zip-compressed', '71714', 'U0011', 'T201807090008');
+INSERT INTO `file` VALUES (257, '1.PNG', 'image/png', '48759', 'U0008', 'T201808090022');
+INSERT INTO `file` VALUES (258, '2.PNG', 'image/png', '35661', 'U0008', 'T201808090022');
+INSERT INTO `file` VALUES (270, 'Screenshot_1.jpg', 'image/jpeg', '13644', 'U0011', 'T201807250017');
+INSERT INTO `file` VALUES (272, 'tenancy.jpg', 'image/jpeg', '10098', 'U0011', 'T201807160014');
+INSERT INTO `file` VALUES (274, 'Double_key_Master_Activity.PNG', 'image/png', '55873', 'U0008', 'T201808100023');
+INSERT INTO `file` VALUES (275, 'Double_key_Master_ActivitySP.PNG', 'image/png', '49319', 'U0008', 'T201808100023');
+INSERT INTO `file` VALUES (276, 'Total_Budget_Berbeda.PNG', 'image/png', '80874', 'U0008', 'T201808100023');
+INSERT INTO `file` VALUES (291, 'MOD_-_Report_Tune_Up_03-08-2018.zip', 'application/x-zip-compressed', '15547', 'U0011', 'T201807270018');
+INSERT INTO `file` VALUES (294, '2018-08-10-SA_debtor_va.7z', 'application/octet-stream', '11386', 'U0011', 'T201807060007');
+INSERT INTO `file` VALUES (300, 'debit_note_AP.jpg', 'image/jpeg', '26634', 'U0006', 'T201808140024');
+INSERT INTO `file` VALUES (302, 'pengajuan_KPR_0.PNG', 'image/png', '17421', 'U0008', 'T201808150025');
+INSERT INTO `file` VALUES (303, 'trx_type_DP.PNG', 'image/png', '23880', 'U0008', 'T201808150025');
+INSERT INTO `file` VALUES (304, 'failed_unpost.PNG', 'image/png', '26801', 'U0008', 'T201808150025');
+INSERT INTO `file` VALUES (306, '2018-08-10-SA_debtor_va.rar', 'application/octet-stream', '12624', 'U0011', 'T201807060007');
+INSERT INTO `file` VALUES (307, 'Update_AP_Debit_Note_20180816.rar', 'application/octet-stream', '39100', 'U0014', 'T201808140024');
+
+-- ----------------------------
+-- Table structure for file_tracking
+-- ----------------------------
+DROP TABLE IF EXISTS `file_tracking`;
+CREATE TABLE `file_tracking`  (
+  `id_file_tracking` int(10) NOT NULL AUTO_INCREMENT,
+  `nama` varchar(200) CHARACTER SET latin1 COLLATE latin1_swedish_ci DEFAULT NULL,
+  `type` text CHARACTER SET latin1 COLLATE latin1_swedish_ci,
+  `ukuran` varchar(5) CHARACTER SET latin1 COLLATE latin1_swedish_ci DEFAULT NULL,
+  `reported` varchar(5) CHARACTER SET latin1 COLLATE latin1_swedish_ci DEFAULT NULL,
+  `id_tracking` varchar(13) CHARACTER SET latin1 COLLATE latin1_swedish_ci DEFAULT NULL,
+  PRIMARY KEY (`id_file_tracking`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 70 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Compact;
+
+-- ----------------------------
+-- Table structure for history_feedback
+-- ----------------------------
+DROP TABLE IF EXISTS `history_feedback`;
+CREATE TABLE `history_feedback`  (
+  `id_feedback` int(11) NOT NULL AUTO_INCREMENT,
+  `id_ticket` varchar(13) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `feedback` int(11) NOT NULL,
+  `reported` varchar(5) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `deskripsi` text CHARACTER SET latin1 COLLATE latin1_swedish_ci,
+  PRIMARY KEY (`id_feedback`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 114 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Compact;
+
+-- ----------------------------
+-- Records of history_feedback
+-- ----------------------------
+INSERT INTO `history_feedback` VALUES (38, 'T201805210001', 1, 'U0005', NULL);
+INSERT INTO `history_feedback` VALUES (65, 'T201805300003', 1, 'U0009', NULL);
+INSERT INTO `history_feedback` VALUES (68, 'T201807180016', 1, 'U0008', NULL);
+INSERT INTO `history_feedback` VALUES (71, 'T201807060004', 1, 'U0008', NULL);
+INSERT INTO `history_feedback` VALUES (84, 'T201807310019', 1, 'U0006', NULL);
+INSERT INTO `history_feedback` VALUES (85, 'T201808030021', 1, 'U0006', NULL);
+INSERT INTO `history_feedback` VALUES (87, 'T201807060005', 1, 'U0008', NULL);
+INSERT INTO `history_feedback` VALUES (88, 'T201807090010', 1, 'U0008', NULL);
+INSERT INTO `history_feedback` VALUES (89, 'T201807110013', 1, 'U0008', NULL);
+INSERT INTO `history_feedback` VALUES (90, 'T201808020020', 1, 'U0007', NULL);
+INSERT INTO `history_feedback` VALUES (93, 'T201807090008', 1, 'U0006', NULL);
+INSERT INTO `history_feedback` VALUES (94, 'T201807060006', 1, 'U0008', NULL);
+INSERT INTO `history_feedback` VALUES (110, 'T201807250017', 1, 'U0009', NULL);
+INSERT INTO `history_feedback` VALUES (111, 'T201807160014', 1, 'U0009', NULL);
+INSERT INTO `history_feedback` VALUES (112, 'T201807110012', 0, 'U0009', 'Untuk form OR auto via (VA), invoice bulan berjalan tidak akan muncul jika masih ada outstanding. Jika unit tersebut disewakan ke orang lain dan penyewanya hanya mau bayar ipl bulan berjalan, bagaimana? ');
+INSERT INTO `history_feedback` VALUES (113, 'T201807060007', 1, 'U0008', NULL);
+
+-- ----------------------------
+-- Table structure for informasi
+-- ----------------------------
+DROP TABLE IF EXISTS `informasi`;
+CREATE TABLE `informasi`  (
+  `id_informasi` int(11) NOT NULL AUTO_INCREMENT,
+  `tanggal` datetime NOT NULL,
+  `subject` varchar(35) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `pesan` text CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `status` decimal(2, 0) NOT NULL,
+  `id_user` varchar(5) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  PRIMARY KEY (`id_informasi`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 5 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Compact;
+
+-- ----------------------------
+-- Records of informasi
+-- ----------------------------
+INSERT INTO `informasi` VALUES (1, '2017-12-08 17:20:05', 'TESTING PROGRAM', 'APLIKASI TIKETING MDLN', 1, 'U0001');
+INSERT INTO `informasi` VALUES (2, '2018-03-26 15:20:39', 'SERVER DOWN', 'DIKARENAKAN 2 AC SERVER MATI, MENGAKIBATKAN 3 HARDISK OVERHEAT. MAKA SERVER DIPASTIKAN DOWN..\nTERIMA KASIH', 1, 'U0001');
+
+-- ----------------------------
+-- Table structure for kategori
+-- ----------------------------
+DROP TABLE IF EXISTS `kategori`;
+CREATE TABLE `kategori`  (
+  `id_kategori` int(11) NOT NULL AUTO_INCREMENT,
+  `nama_kategori` varchar(35) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  PRIMARY KEY (`id_kategori`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 10 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Compact;
+
+-- ----------------------------
+-- Records of kategori
+-- ----------------------------
+INSERT INTO `kategori` VALUES (7, 'SYSTEM');
+INSERT INTO `kategori` VALUES (8, 'DATA');
+
+-- ----------------------------
+-- Table structure for kondisi
+-- ----------------------------
+DROP TABLE IF EXISTS `kondisi`;
+CREATE TABLE `kondisi`  (
+  `id_kondisi` int(11) NOT NULL AUTO_INCREMENT,
+  `nama_kondisi` varchar(30) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `waktu_respon` decimal(10, 0) NOT NULL,
+  PRIMARY KEY (`id_kondisi`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 5 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Compact;
+
+-- ----------------------------
+-- Records of kondisi
+-- ----------------------------
+INSERT INTO `kondisi` VALUES (1, 'URGENT', 3);
+INSERT INTO `kondisi` VALUES (2, 'NORMAL', 7);
+
+-- ----------------------------
+-- Table structure for sub_kategori
+-- ----------------------------
+DROP TABLE IF EXISTS `sub_kategori`;
+CREATE TABLE `sub_kategori`  (
+  `id_sub_kategori` int(11) NOT NULL AUTO_INCREMENT,
+  `nama_sub_kategori` varchar(35) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `id_kategori` int(11) NOT NULL,
+  PRIMARY KEY (`id_sub_kategori`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 14 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Compact;
+
+-- ----------------------------
+-- Records of sub_kategori
+-- ----------------------------
+INSERT INTO `sub_kategori` VALUES (7, 'BUGS FORM', 7);
+INSERT INTO `sub_kategori` VALUES (8, 'REQUEST FORM', 7);
+INSERT INTO `sub_kategori` VALUES (9, 'REQUEST REPORT', 7);
+INSERT INTO `sub_kategori` VALUES (10, 'BUGS REPORT', 7);
+INSERT INTO `sub_kategori` VALUES (11, 'DATA ERROR', 8);
+
+-- ----------------------------
+-- Table structure for ticket
+-- ----------------------------
+DROP TABLE IF EXISTS `ticket`;
+CREATE TABLE `ticket`  (
+  `id_ticket` varchar(13) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `tanggal` datetime NOT NULL,
+  `tanggal_proses` datetime NOT NULL,
+  `tanggal_solved` datetime NOT NULL,
+  `reported` varchar(5) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `id_sub_kategori` int(11) NOT NULL,
+  `problem_summary` varchar(50) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `problem_detail` text CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `id_support` varchar(5) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `status` int(11) NOT NULL,
+  `progress` decimal(10, 0) NOT NULL,
+  `feedback` varchar(1) CHARACTER SET latin1 COLLATE latin1_swedish_ci DEFAULT NULL,
+  PRIMARY KEY (`id_ticket`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Compact;
+
+-- ----------------------------
+-- Records of ticket
+-- ----------------------------
+INSERT INTO `ticket` VALUES ('T201805210001', '2018-05-21 09:15:38', '2018-05-21 10:26:48', '2018-05-21 10:32:18', 'U0005', 10, 'GAGAL', 'INPUT DATA', 'U0011', 6, 100, NULL);
+INSERT INTO `ticket` VALUES ('T201805280002', '2018-06-07 11:47:34', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'U0005', 11, 'REPORT MUTASI KAS BANK EROR', 'HAL INI TERJADI DI ENTITY GSM, UNTUK BANK BTN\nKENAPA SAAT MEMBUKA REPORT MUTASE KAS/BANK (GL POSTED), DATA BANK TIDAK TAMPIL YA? SEDANGKAN JIKA DI CEK DI GENERAL LEDGER UNTUK ACCOUNT BANK BTN TSB MUNCUL.', '', 7, 0, NULL);
+INSERT INTO `ticket` VALUES ('T201805300003', '2018-05-30 08:56:26', '0000-00-00 00:00:00', '2018-07-11 11:24:43', 'U0009', 7, 'CN OWNERSHIP', 'PADA SAAT MAU MELAKUKAN PENGIPUTAN CN OWNERSHIP MUNCUL FORM DATA INCOMEPLETE TRANSACTION. PADAHALA KLIK NEW BUKAN MELAKUKAN PERBAIKAN DI FORM TERSEBUT.', 'U0011', 6, 100, NULL);
+INSERT INTO `ticket` VALUES ('T201807060004', '2018-07-06 14:31:31', '2018-07-23 15:27:52', '2018-07-23 15:28:17', 'U0008', 8, 'PENGALIHAN HAK MODUL OWNERSHIP', 'DI PROJECT JGC ENTITY MDL SAAT INI KAMI INGIN MENGGUNAKAN FORM PENGALIHAN HAK OWNERSHIP , MOHON UNTUK DIBUATKAN PROSES PENGALIHAN HAK DI MODUL OWNERSHIP DENGAN KONSEP SBB :\n\n1.	PENGALIHAN HAK OWNERSHIP HANYA BISA DILAKUKAN DENGAN VALIDASI UNIT TERSEBUT HARUS SUDAH SERAH TERIMA DAN MEMPUNYAI DEBTOR IPKL\n2.	PENGALIHAN HAK OWNERSHIP TIDAK MENGACU ATAU MERUBAH APAPUN DI SALES (PIUTANG SALES,BOOKING ENTRY,DLL)\n3.	PENGALIHAN HAK OWNERSHIP HANYA MENGUPDATE/MEREPLACE INVOICE IPKL DAN PIUTANG IPKL YANG LAMA MENJADI PEMILIK BARU.\n4.	DEBTOR BARU AKAN TERBENTUK ATAU TEREPLACE SAAT PENGALIHAN HAK OWNERSHIP DI POSTING    (JADI USER HANYA MEMBUAT CUSTOMER ID DI FORM DEBTOR MASTER FILE)\n5.	 UNTUK FIELD TO OWNER DI FORM PENGALIHAN HAK LOOK UP KE CUSTOMER MASTER DENGAN PARAMETER BUSINESS_ID DAN NAMA', 'U0011', 6, 100, NULL);
+INSERT INTO `ticket` VALUES ('T201807060005', '2018-07-06 14:38:55', '0000-00-00 00:00:00', '2018-08-08 14:28:48', 'U0008', 8, 'POSTING PENALTY PER INVOICE', 'TOLONG UNTUK POSTING PENALTY DIBUAT MENJADI POSTING PER INVOICE, KARENA YANG SAAT INI BERJALAN POSTING PENALTY PER DEBTOR.', 'U0011', 6, 100, NULL);
+INSERT INTO `ticket` VALUES ('T201807060006', '2018-07-06 14:41:25', '0000-00-00 00:00:00', '2018-08-10 09:37:54', 'U0008', 9, 'PRINT ALL UNTUK OUTPUT AJB', 'MOHON DIBUATKAN PROSES PRINT ALL UNTUK PROSES OUTPUT AJB , DENGAN PARAMETER TANGGAL DIBUATNYA PROSES AJB, UNTUK OUTPUT NY TOLONG DI TEMPEL DI MODUL AR > OUTPUT > REPORT LEGAL', 'U0011', 6, 100, 'Y');
+INSERT INTO `ticket` VALUES ('T201807060007', '2018-07-06 14:43:23', '2018-08-15 11:25:36', '2018-08-15 11:26:51', 'U0008', 7, 'MASTER DEBTOR VA', 'MOHON UNTUK NOMOR VA DI TEMPEL DI UNIT, KARENA SAAT INI SETIAP ADA CANCELLATION DAN INPUT SP BARU, DEBTOR VA TERBENTUK JUGA', 'U0011', 6, 100, 'Y');
+INSERT INTO `ticket` VALUES ('T201807090008', '2018-07-09 09:04:15', '2018-08-08 15:59:44', '2018-08-08 16:01:24', 'U0006', 7, 'ERROR TENANCY MANAGEMENT', 'MOHON BANTUANNYA, SAAT MEMBUKA LOT MASTER FILE DI TENANCY MANAGEMENT MUNCUL MSGBOX SEPERTI GAMBAR TERLAMPIR.', 'U0011', 6, 100, NULL);
+INSERT INTO `ticket` VALUES ('T201807090009', '2018-07-09 13:50:07', '2018-07-10 09:16:37', '2018-07-10 09:18:28', 'U0006', 8, 'SPK MANUAL', 'TOLONG UPDATE KEMBALI SPK MANUAL YANG LAMA.', 'U0011', 6, 100, NULL);
+INSERT INTO `ticket` VALUES ('T201807090010', '2018-07-09 14:03:22', '2018-08-02 16:41:49', '2018-08-02 16:42:52', 'U0008', 7, 'ERROR ADD DETAIL BOOKING ESTIMATE MODULE PL', 'MOHON DI CHECK UNTUK FORM BOOKING ESTIMATE DI MODULE PL, KARENA SERING TERJADI ERROR SAAT MENAMBAH DETAIL DI FORM BOOKING ESTIMATE, SEPERTI DI LAMPIRAN DOKUMEN,', 'U0011', 6, 100, NULL);
+INSERT INTO `ticket` VALUES ('T201807110011', '2018-07-11 09:42:48', '0000-00-00 00:00:00', '2018-07-11 10:57:34', 'U0007', 11, 'DN DOUBLE', 'TRANSAKSI DN (DEBIT NOTE) MUNCUL 2X/DOUBLE DI EXTERNAL GENERAL JOURNAL.\nDOC_NO : JC/DN/18/07/00002', 'U0011', 6, 100, NULL);
+INSERT INTO `ticket` VALUES ('T201807110012', '2018-07-11 10:25:56', '0000-00-00 00:00:00', '2018-08-10 09:30:06', 'U0009', 7, 'VA OR AUTO', 'UNTUK FORM OR AUTO YANG DIBICARAKAN MEETING TERKAHIR, DI MANA DETAIL DI FORM TERSEBUT TIDAK BISA REFRESH OTOMATIS. SEHINGGA MENYEBABKAN TIDAK MUNCUL PPN DI FORM TERSEBUT PADA BAGIAN DETAIL. SERTA DI BAGIAN DETAIL FORM TERSEBUT, INVOICE BERJALAN JUGA TIDAK MUNCUL.', 'U0011', 3, 100, 'Y');
+INSERT INTO `ticket` VALUES ('T201807110013', '2018-07-11 17:05:30', '0000-00-00 00:00:00', '2018-08-08 14:23:20', 'U0008', 7, 'ERROR IMPORT SALES', 'MOHON DI CHECK UNTUK FORM IMPORT SALES TERJADI ERROR SAAT MELAKUKAN IMPORT MASTER UNIT.', 'U0011', 6, 100, NULL);
+INSERT INTO `ticket` VALUES ('T201807160014', '2018-07-16 17:24:00', '2018-08-08 15:30:14', '2018-08-10 09:36:47', 'U0009', 7, 'TIDAK BISA TERBENTUK INVOICE TENANCY', 'TIDAK DAPAT TERBENTUK INVOICE MILIK TENANCY PADA MODUL TENANCY MANAGEMENT UNTUK BULAN JULI 2018. SAYA MENJALANKAN PADA FORM \"CONTRACT SIGNING ENTRY STANDING\", PADAHAL SAYA SUDAH MELAKUKAN APPROVE DAN SAVE PADA TAB \"OTHER CHANGE\". CONTOH KODE UNIT TERLAMPIR PADA GAMBAR.', 'U0011', 6, 100, 'Y');
+INSERT INTO `ticket` VALUES ('T201807180015', '2018-07-18 10:37:26', '0000-00-00 00:00:00', '2018-07-23 15:29:39', 'U0009', 10, 'ERROR KARTU PIUTANG KONSUMEN (GSM)', 'PADA SAAT MAU MENAMPILKAN REPORT KARTU PIUTANG KONSUMEN (AR). MUNCUL ERROR PADA GAMBAR (ATTACHMENT), NAMUN ITU HANYA BERLAKU PADA PROJECT GSM (GOLDEN SURYA MAKMUR).', 'U0011', 6, 100, NULL);
+INSERT INTO `ticket` VALUES ('T201807180016', '2018-07-18 17:28:07', '2018-07-23 15:26:13', '2018-07-23 15:27:13', 'U0008', 11, 'ERROR ALOKASI OR SALES', 'MOHON DI CHECK DAN INFO UNTUK DEBTOR H1 / 015/001 UNTUK PENERIMAAN JC/BM/18/07/00234 TIDAK BISA DI ALOKASI, MUNCUL ERROR SEPERTI DI GAMBAR TERLAMPIR.\nTERIMA KASIH', 'U0011', 6, 100, NULL);
+INSERT INTO `ticket` VALUES ('T201807250017', '2018-07-25 11:37:37', '2018-08-10 08:53:33', '2018-08-10 09:14:16', 'U0009', 10, 'TOTAL SALDO', 'PADA LAPORAN KARTU PIUTANG KONSUMEN (AR), NILAI TOTAL SALDO AKHIR TIDAK SESUAI DENGAN SEHARUSNYA. KARENA KONSUMEN ADA PEMBAYARAN DAN DI POTONG NILAI CN. HARUSNYA SALDO KONSUMEN TERSEBUT 75.225.841. UNTUK UNIT \"YD/GF/07\".', 'U0011', 6, 100, 'Y');
+INSERT INTO `ticket` VALUES ('T201807270018', '2018-07-27 11:13:53', '0000-00-00 00:00:00', '2018-08-13 09:03:12', 'U0006', 10, 'USER AKTIF (LOG)', 'MOHON BANTUANNYA UNTUK DI CEK KEMBALI,\nTERJADI CASE DIMANA USER KM (ATAS NAMA DEDI) SEDANG MEMBUKA EXTERNAL JOURNAL. USER HO (ATAS NAMA PITFUNG) SEDANG POSTING CASHBOOK DAN TERJADI REQUEST TIME OUT.\nDIINFOKAN KE USER KM UNTUK TUTUP FORM TAPI MASIH TERJADI LOCK, DAN SETELAH LOGOUT BARU SYSTEM BERJALAN DENGAN NORMAL.', 'U0011', 5, 100, 'Y');
+INSERT INTO `ticket` VALUES ('T201807310019', '2018-07-31 14:35:01', '0000-00-00 00:00:00', '2018-08-08 14:21:29', 'U0006', 7, 'INSERT STANDING CHARGES OWNERSHIP', 'DEAR TEAM AST,\n\nMOHON BANTUANNYA, SERING TERJADI KETIKA USER MAU INSERT NEW STANDING CHARGES OWNERSHIP TAPI ICON INSERT TIDAK DAPAT DIGUNAKAN.', 'U0011', 6, 100, NULL);
+INSERT INTO `ticket` VALUES ('T201808020020', '2018-08-02 14:48:16', '0000-00-00 00:00:00', '2018-08-02 16:41:07', 'U0007', 7, 'ERROR INPUT MASTER ACTIVITY', 'KETIKA INPUT MULTI ACTIVITY MUNCUL ERROR (TERLAMPIR)', 'U0011', 6, 100, NULL);
+INSERT INTO `ticket` VALUES ('T201808030021', '2018-08-03 09:03:41', '0000-00-00 00:00:00', '2018-08-08 14:19:36', 'U0006', 10, 'PRINT KWITANSI ESTATE OR AUTO', 'MOHON BANTUANNYA, TERJADI ERROR DIMANA SAAT MAU PRINT KWITANSI ESTATE DI OR AUTO DAN MUNCUL MSGBOX TANDA PENTUNG.\n\nTERIMAKASIH.', 'U0011', 6, 100, NULL);
+INSERT INTO `ticket` VALUES ('T201808090022', '2018-08-09 08:34:52', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'U0008', 7, 'FORM PPJB ADMIN DOKUMEN', 'MOHON BANTUANNY TEAM AST UNTUK MEMBENARKAN PROSES APPROVE DAN UNAPPROVE UNTUK INPUT PPJB, KARENA YANG SAAT INI TERJADI UNTUK TOMBOL APPROVE TIDAK MEMASUKKAN PASSWORD DAN UNTUK TOMBOL UNAPPROVE KETIKA DI KLIK DAN BERHASIL, MUNCUL POP UP YANG MEMBINGUNGKAN USER APAKAH INPUT BERHASIL DI UNAPPROVE , TERLAMPIR GAMBAR.', 'U0011', 4, 0, NULL);
+INSERT INTO `ticket` VALUES ('T201808100023', '2018-08-10 10:34:45', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'U0008', 11, 'DOUBLE ACTIVITY_CD DI ACTIVITY MASTER MODULE PL', 'DEAR TEAM AST, MOHON BANTUANNYA UNTUK TOTAL BUDGET YANG BERBEDA DI FORM BOOKING ESTIMATE DENGAN REPORT MASTER BUDGET,\nSETELAH DI CHECK ADA 2 ACTIVITY_CODE YANG SAMA DALAM REPORT, MENYEBABKAN SUM TOTAL NY LEBIH BESAR, TOLONG UNTUK DI FORM MASTER ACTIVITY NYA DIBUATKAN VALIDASI PRIMARY KEY TERHADAP ACTIVITY_CODE, \n\nTERIMA KASIH.', 'U0014', 4, 0, '');
+INSERT INTO `ticket` VALUES ('T201808140024', '2018-08-14 10:31:06', '0000-00-00 00:00:00', '2018-08-16 08:30:18', 'U0006', 7, 'ERROR DEBIT NOTE AP', 'DEAR TEAM AST,\nMOHON BANTUANNYA TERJADI ERROR PADA FORM DEBIT NOTE AP. DIMANA SAAT MASUK FORM ENTRY KEMUDIAN KE ALLOCATION, BALIK LAGI KE ENTRY DAN PILIH SEARCH RECORD TERJADI ERROR SEPERTI LAMPIRAN GAMBAR.\nTERIMAKASIH.', 'U0014', 5, 100, 'Y');
+INSERT INTO `ticket` VALUES ('T201808150025', '2018-08-15 11:12:56', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'U0008', 7, 'VALIDASI FORM PENGAJUAN KREDIT', 'DEAR TEAM AST MOHON BANTUANNYA UNTUK FORM PENGAJUAN KPR DI VALIDASI KETIKA NOMINAL DI SPR 0 PROSES TIDAK BISA DILANJUTKAN, KARENA ADA KASUS USER SALAH MEMILIH TRX_TYPE PADA SAAT PEMBUATAN PAYMENT PLAN KPR, DIISI DENGAN DP  YANG SEHARUSNYA KR.\nDAN KPR UNIT G7 / 005 A.N. ROBIN SUSANTO TSB  TIDAK BISA DI UNPOST.', 'U0011', 4, 0, 'Y');
+
+-- ----------------------------
+-- Table structure for tracking
+-- ----------------------------
+DROP TABLE IF EXISTS `tracking`;
+CREATE TABLE `tracking`  (
+  `id_tracking` int(11) NOT NULL AUTO_INCREMENT,
+  `id_ticket` varchar(13) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `tanggal` datetime NOT NULL,
+  `status` varchar(50) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `deskripsi` text CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `id_user` varchar(5) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  PRIMARY KEY (`id_tracking`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 799 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Compact;
+
+-- ----------------------------
+-- Records of tracking
+-- ----------------------------
+INSERT INTO `tracking` VALUES (337, 'T201805210001', '2018-05-21 09:15:38', 'Created Ticket', 'TIKET DI BUAT', 'U0005');
+INSERT INTO `tracking` VALUES (338, 'T201805210001', '2018-05-21 09:17:57', 'Ticket disetujui', 'TICKET DIBERIKAN KEPADA VENDOR SUPPORT', 'U0011');
+INSERT INTO `tracking` VALUES (339, 'T201805210001', '2018-05-21 09:27:05', 'Diproses oleh vendor support', '', 'U0011');
+INSERT INTO `tracking` VALUES (340, 'T201805210001', '2018-05-21 09:29:33', 'Up Progress To 0 %', 'DIPOSESBARU', 'U0011');
+INSERT INTO `tracking` VALUES (341, 'T201805210001', '2018-05-21 09:45:10', 'Up Progress To 100 %', 'SELESAI', 'U0011');
+INSERT INTO `tracking` VALUES (342, 'T201805210001', '2018-05-21 10:11:17', 'Unsolved', 'Belum Tuntas', 'U0005');
+INSERT INTO `tracking` VALUES (343, 'T201805210001', '2018-05-21 10:11:58', 'Diproses oleh vendor support', '', 'U0011');
+INSERT INTO `tracking` VALUES (344, 'T201805210001', '2018-05-21 10:12:06', 'Up Progress To 0 %', 'PROSES KEMBALI', 'U0011');
+INSERT INTO `tracking` VALUES (345, 'T201805210001', '2018-05-21 10:18:51', 'Up Progress To 100 %', 'FINISH', 'U0011');
+INSERT INTO `tracking` VALUES (346, 'T201805210001', '2018-05-21 10:20:32', 'Unsolved', 'Masih belum selesai', 'U0005');
+INSERT INTO `tracking` VALUES (347, 'T201805210001', '2018-05-21 10:26:48', 'Diproses oleh vendor support', '', 'U0011');
+INSERT INTO `tracking` VALUES (348, 'T201805210001', '2018-05-21 10:27:02', 'Up Progress To 0 %', 'PROSES LAGI', 'U0011');
+INSERT INTO `tracking` VALUES (349, 'T201805210001', '2018-05-21 10:32:18', 'Up Progress To 100 %', 'ENDING', 'U0011');
+INSERT INTO `tracking` VALUES (462, 'T201805300003', '2018-05-30 08:56:26', 'Created Ticket', 'TIKET DI BUAT', 'U0009');
+INSERT INTO `tracking` VALUES (463, 'T201805280002', '2018-06-07 11:47:34', 'Created Ticket', 'TIKET DI BUAT', 'U0005');
+INSERT INTO `tracking` VALUES (475, 'T201805300003', '2018-07-04 09:02:32', 'Ticket disetujui', 'TICKET DITERIMA VENDOR SUPPORT', 'U0011');
+INSERT INTO `tracking` VALUES (476, 'T201805300003', '2018-07-04 09:04:21', 'Up Progress To 0 %', 'PAK RANGGAUNG,\n\nUNTUK CASE INI BUKAN NYA UDAH DIPERBAIKI YAH?\nINI TICKETING UNTUK TEST ATAU BUKAN YA PAK?\n\nTHANKS\nHOTNIEL SILAEN', 'U0011');
+INSERT INTO `tracking` VALUES (490, 'T201807060004', '2018-07-06 14:31:31', 'Created Ticket', 'TIKET DI BUAT', 'U0008');
+INSERT INTO `tracking` VALUES (491, 'T201807060005', '2018-07-06 14:38:55', 'Created Ticket', 'TIKET DI BUAT', 'U0008');
+INSERT INTO `tracking` VALUES (492, 'T201807060006', '2018-07-06 14:41:25', 'Created Ticket', 'TIKET DI BUAT', 'U0008');
+INSERT INTO `tracking` VALUES (493, 'T201807060007', '2018-07-06 14:43:23', 'Created Ticket', 'TIKET DI BUAT', 'U0008');
+INSERT INTO `tracking` VALUES (494, 'T201807090008', '2018-07-09 09:04:15', 'Created Ticket', 'TIKET DI BUAT', 'U0006');
+INSERT INTO `tracking` VALUES (495, 'T201807060005', '2018-07-09 09:30:16', 'Ticket disetujui', 'TICKET DITERIMA VENDOR SUPPORT', 'U0011');
+INSERT INTO `tracking` VALUES (496, 'T201807060005', '2018-07-09 09:34:23', 'Up Progress To 0 %', 'PAK HERI,\n\nUNTUK KASUS INI SERPERTI YANG SUDAH DI BAHAS, AKAN DI KENAKAN CHARGE.\nHAL INI AKAN DIKENAKAN 3 MAINDAYS. HAL INI KARENA PERUBAHAN KONSEP DARI YANG SUDAH BERJALAN. PERUBAHANNYA MENCAKUP FORM DAN JUGA STORE PROCEDURE POSTING PENALTY.\n\nTHANKS\nHOTNIEL SILAEN', 'U0011');
+INSERT INTO `tracking` VALUES (497, 'T201805280002', '2018-07-09 09:45:32', 'Ticket tidak disetujui', '', 'U0011');
+INSERT INTO `tracking` VALUES (499, 'T201807060006', '2018-07-09 09:46:41', 'Ticket disetujui', 'TICKET DITERIMA VENDOR SUPPORT', 'U0011');
+INSERT INTO `tracking` VALUES (500, 'T201807060006', '2018-07-09 09:49:32', 'Up Progress To 0 %', 'PAK HERI,\n\nUNTUK PRINT ALL AJB INI KEMUNGKINAN AKAN MENYEBABKAN SYSTEM JADI LAMBAT. HAL INI KARENA SEMUA DATA AJB AKAN DI PRINT SEKALIGUS. SEMAKIN BANYAK DATA AJB YANG DI INPUT MAKA SEMAKIN LAMA PROSES LOADING NYA.\nADA KEMUNGKINAN JUGA, HAL INI AKAN MENGGANGGU PROSES TRANSAKSI LAIN YANG DILAKUKAN BERSAMAAN ATAU SETELAH PROSES PRINT INI DILAKUKAN\n\nAPAKAH TIDAK MASALAH JIKA PROSES NYA LAMA?\n\nTHANKS\nHOTNIEL SILAEN', 'U0011');
+INSERT INTO `tracking` VALUES (501, 'T201807090009', '2018-07-09 13:50:07', 'Created Ticket', 'TIKET DI BUAT', 'U0006');
+INSERT INTO `tracking` VALUES (502, 'T201807090009', '2018-07-09 13:56:33', 'Ticket disetujui', 'TICKET DITERIMA VENDOR SUPPORT', 'U0011');
+INSERT INTO `tracking` VALUES (503, 'T201807090010', '2018-07-09 14:03:22', 'Created Ticket', 'TIKET DI BUAT', 'U0008');
+INSERT INTO `tracking` VALUES (511, 'T201807090010', '2018-07-09 14:31:47', 'Ticket disetujui', 'TICKET DITERIMA VENDOR SUPPORT', 'U0011');
+INSERT INTO `tracking` VALUES (513, 'T201807090009', '2018-07-09 14:35:57', 'Up Progress To 0 %', '', 'U0011');
+INSERT INTO `tracking` VALUES (514, 'T201807090009', '2018-07-09 14:40:06', 'Up Progress To 100 %', 'MOHON DIUPDATE KE SERVER, UNTUK DATA YANG LAMA CARA IMPORT TIDAK BISA LANGSUNG, JADI SAYA BUATKAN SCRIPT UNTUK INSERT DATA DARI DATABASE LAMA NYA. RSTORE DATABASE TANGGAL 28 MEI 2018, DENGAN NAMA PMS_STANDARD_0528, LALU JALANKAN SCRIPT \"INSERT DATA\" YANG TERLAMPIR DI ATTACHMENT UNTUK INSERT DATA LAMA KE DATABASE PMS_STANDARD', 'U0011');
+INSERT INTO `tracking` VALUES (526, 'T201807090009', '2018-07-10 09:07:25', 'Unsolved', 'unsolved', 'U0006');
+INSERT INTO `tracking` VALUES (527, 'T201807090009', '2018-07-10 09:16:37', 'Diproses oleh vendor support', '', 'U0011');
+INSERT INTO `tracking` VALUES (528, 'T201807090009', '2018-07-10 09:18:05', 'Up Progress To 0 %', 'NOTE REFER TO LAST INFORMATION ON THIS TICKET', 'U0011');
+INSERT INTO `tracking` VALUES (529, 'T201807090009', '2018-07-10 09:18:28', 'Up Progress To 100 %', '', 'U0011');
+INSERT INTO `tracking` VALUES (533, 'T201807110011', '2018-07-11 09:42:48', 'Created Ticket', 'TIKET DI BUAT', 'U0007');
+INSERT INTO `tracking` VALUES (534, 'T201807110012', '2018-07-11 10:25:56', 'Created Ticket', 'TIKET DI BUAT', 'U0009');
+INSERT INTO `tracking` VALUES (535, 'T201807060004', '2018-07-11 10:48:53', 'Ticket disetujui', 'TICKET DITERIMA VENDOR SUPPORT', 'U0011');
+INSERT INTO `tracking` VALUES (536, 'T201807090008', '2018-07-11 10:49:18', 'Ticket disetujui', 'TICKET DITERIMA VENDOR SUPPORT', 'U0011');
+INSERT INTO `tracking` VALUES (537, 'T201807110011', '2018-07-11 10:56:07', 'Ticket disetujui', 'TICKET DITERIMA VENDOR SUPPORT', 'U0011');
+INSERT INTO `tracking` VALUES (538, 'T201807110011', '2018-07-11 10:57:34', 'Up Progress To 100 %', 'DEAR BU ESTER,\n\nTERLAMPIR UPDATE UNTUK PERMASALAHAN INI.\n\nTHANKS\nHOTNIEL SILAEN', 'U0011');
+INSERT INTO `tracking` VALUES (539, 'T201805300003', '2018-07-11 11:24:43', 'Up Progress To 100 %', '', 'U0011');
+INSERT INTO `tracking` VALUES (540, 'T201807060004', '2018-07-11 11:53:25', 'Up Progress To 100 %', 'PAK HERI,\n\nTERLAMPIR UPDATE UNTUK KASUS PENGALIHAN HAK OWNERSHIP.\n\nTHANKS\nHOTNIEL SILAEN', 'U0011');
+INSERT INTO `tracking` VALUES (541, 'T201807110013', '2018-07-11 17:05:30', 'Created Ticket', 'TIKET DI BUAT', 'U0008');
+INSERT INTO `tracking` VALUES (542, 'T201807160014', '2018-07-16 17:24:00', 'Created Ticket', 'TIKET DI BUAT', 'U0009');
+INSERT INTO `tracking` VALUES (543, 'T201807160014', '2018-07-17 16:29:03', 'Ticket disetujui', 'TICKET DITERIMA VENDOR SUPPORT', 'U0011');
+INSERT INTO `tracking` VALUES (544, 'T201807060004', '2018-07-18 09:36:40', 'Unsolved', 'Mohon di betulkan kembali sesuai pembicaraan lewat telp dengan bu ester', 'U0008');
+INSERT INTO `tracking` VALUES (545, 'T201807180015', '2018-07-18 10:37:26', 'Created Ticket', 'TIKET DI BUAT', 'U0009');
+INSERT INTO `tracking` VALUES (546, 'T201807180016', '2018-07-18 17:28:07', 'Created Ticket', 'TIKET DI BUAT', 'U0008');
+INSERT INTO `tracking` VALUES (547, 'T201807180016', '2018-07-19 11:30:14', 'Ticket disetujui', 'TICKET DITERIMA VENDOR SUPPORT', 'U0011');
+INSERT INTO `tracking` VALUES (548, 'T201807180016', '2018-07-19 11:35:41', 'Up Progress To 0 %', 'PAK HERI, KALAU SAYA LIHAT DARI DATA INVOICE NYA.\nUNTUK PAJAK NYA ADALAH INCLUSIVE, SEHINGGA NILAI  PADA SAAT ALOKASI NILAI MAX ALOKASINYA ITU ADALAH NILAI SETELAH DI KURANGI DENGAN NILAI PAJAK.  \nTHANKS', 'U0011');
+INSERT INTO `tracking` VALUES (549, 'T201807180016', '2018-07-19 11:35:48', 'Up Progress To 100 %', 'PAK HERI, KALAU SAYA LIHAT DARI DATA INVOICE NYA.\nUNTUK PAJAK NYA ADALAH INCLUSIVE, SEHINGGA NILAI  PADA SAAT ALOKASI NILAI MAX ALOKASINYA ITU ADALAH NILAI SETELAH DI KURANGI DENGAN NILAI PAJAK.  \nTHANKS', 'U0011');
+INSERT INTO `tracking` VALUES (550, 'T201807180015', '2018-07-19 11:36:36', 'Ticket disetujui', 'TICKET DITERIMA VENDOR SUPPORT', 'U0011');
+INSERT INTO `tracking` VALUES (551, 'T201807180016', '2018-07-19 13:38:49', 'Unsolved', 'iya pak hotniel inclusive, klo yang di masukin harga ny yg sebelum pajak bukan ny  exclusive pak?', 'U0008');
+INSERT INTO `tracking` VALUES (554, 'T201807160014', '2018-07-20 17:04:21', 'Up Progress To 100 %', 'PAK RANGGAUNG,\n\nUNTUK PERMASALAHAN INI SUDAH SAYA PERBAIKI.\nPERBAIKAN DILAKUKAN PADA LEVEL FORM.\nBERIKUT LINK UNTUK UPDATEAN NYA.\nHTTPS://DRIVE.GOOGLE.COM/OPEN?ID=1OFCQAS36AJSAEELQKCZCENG5LIDSUZ_K\n\nTHANKS\nHOTNIEL SILAEN', 'U0011');
+INSERT INTO `tracking` VALUES (555, 'T201807180015', '2018-07-23 09:29:33', 'Up Progress To 0 %', 'Pak Ranggaung,\n\nUntuk error ini saya sudah coba via graphon dan tidak ada masalah. \nMohon di cek kembali.\n\nThanks\nHotniel Silaen', 'U0011');
+INSERT INTO `tracking` VALUES (556, 'T201807180016', '2018-07-23 15:26:13', 'Diproses oleh vendor support', '', 'U0011');
+INSERT INTO `tracking` VALUES (557, 'T201807180016', '2018-07-23 15:27:13', 'Up Progress To 100 %', 'Pak Heri,\n\nTerlampir link untuk file update terkait permasalahan di atas.\nhttps://drive.google.com/open?id=161S-hK6e20PNRr3vWwrXkDXjm5XMgZIa\n\nThanks\nHotniel Silaen', 'U0011');
+INSERT INTO `tracking` VALUES (558, 'T201807060004', '2018-07-23 15:27:52', 'Diproses oleh vendor support', '', 'U0011');
+INSERT INTO `tracking` VALUES (559, 'T201807060004', '2018-07-23 15:28:17', 'Up Progress To 100 %', 'Untuk permasalahan ini sudah di kirimkan kembali perbaikannya.', 'U0011');
+INSERT INTO `tracking` VALUES (560, 'T201807180015', '2018-07-23 15:29:39', 'Up Progress To 100 %', 'Setelah di cek via graphon, tidak di temukan masalah terkait hal ini.\nMohon di cek kembali, kemungkinan kendala nya muncul karena jaringan internet putus untuk project GSM nya.', 'U0011');
+INSERT INTO `tracking` VALUES (561, 'T201805280002', '2018-07-24 10:47:41', 'Ticket dikembalikan ke posisi belum di setujui', '', 'U0011');
+INSERT INTO `tracking` VALUES (562, 'T201805280002', '2018-07-24 10:47:45', 'Ticket tidak disetujui', '', 'U0011');
+INSERT INTO `tracking` VALUES (563, 'T201807160014', '2018-07-25 10:30:49', 'Unsolved', 'Saya cek untuk form ini masih belum bisa, terutam untuk invoice bulan juli.', 'U0009');
+INSERT INTO `tracking` VALUES (564, 'T201807090010', '2018-07-25 10:41:08', 'Up Progress To 100 %', 'Pak Heri silahkan diupdate.', 'U0011');
+INSERT INTO `tracking` VALUES (565, 'T201807090010', '2018-07-25 11:05:52', 'Unsolved', 'pak yulianto/pak hotniel, tolong di upload dengan file zip, atau bisa di email, karena file rar tidak kebaca di app ticket, terima kasih', 'U0008');
+INSERT INTO `tracking` VALUES (566, 'T201807250017', '2018-07-25 11:37:37', 'Created Ticket', 'TIKET DI BUAT', 'U0009');
+INSERT INTO `tracking` VALUES (584, 'T201807250017', '2018-07-26 08:57:23', 'Ticket disetujui', 'TICKET DITERIMA VENDOR SUPPORT', 'U0011');
+INSERT INTO `tracking` VALUES (585, 'T201807250017', '2018-07-26 08:58:11', 'Up Progress To 100 %', 'Pak Ranggaung,\n\nTerlampir update untuk permasalahan ini.\n\nThanks\nHotniel Silaen', 'U0011');
+INSERT INTO `tracking` VALUES (590, 'T201807270018', '2018-07-27 11:13:53', 'Created Ticket', 'TIKET DI BUAT', 'U0006');
+INSERT INTO `tracking` VALUES (597, 'T201807310019', '2018-07-31 14:35:01', 'Created Ticket', 'TIKET DI BUAT', 'U0006');
+INSERT INTO `tracking` VALUES (626, 'T201807090010', '2018-08-02 14:43:50', 'Diproses oleh vendor support', '', 'U0011');
+INSERT INTO `tracking` VALUES (627, 'T201808020020', '2018-08-02 14:48:16', 'Created Ticket', 'TIKET DI BUAT', 'U0007');
+INSERT INTO `tracking` VALUES (628, 'T201807090010', '2018-08-02 14:53:33', 'Up Progress To 100 %', 'Dear Pak Heri,\n\nTerlampir untuk update file nya dengan sudah saya ubah ke zip.\nSilahkan diupdatekan ke server.', 'U0011');
+INSERT INTO `tracking` VALUES (629, 'T201808020020', '2018-08-02 14:54:20', 'Ticket disetujui', 'TICKET DITERIMA VENDOR SUPPORT', 'U0011');
+INSERT INTO `tracking` VALUES (630, 'T201808020020', '2018-08-02 14:55:51', 'Up Progress To 0 %', 'Dear bu Ester,\n\nTerlampir untuk update form PL Activity yang tidak bisa save record lebih dari 1.\nSilahkan diupdate ke server.', 'U0011');
+INSERT INTO `tracking` VALUES (635, 'T201807090010', '2018-08-02 16:34:09', 'Unsolved', 'Tolong di upload ulang pak yulianto, terima kasih', 'U0008');
+INSERT INTO `tracking` VALUES (636, 'T201808020020', '2018-08-02 16:41:07', 'Up Progress To 100 %', 'Dear bu Ester, coba dengan file ini, bisa di download tidak?', 'U0011');
+INSERT INTO `tracking` VALUES (637, 'T201807090010', '2018-08-02 16:41:49', 'Diproses oleh vendor support', '', 'U0011');
+INSERT INTO `tracking` VALUES (638, 'T201807090010', '2018-08-02 16:42:52', 'Up Progress To 100 %', 'Dear Pak Heri,\n\nCoba lagi ya pak, sudah saya upload ulang.', 'U0011');
+INSERT INTO `tracking` VALUES (646, 'T201808030021', '2018-08-03 09:03:41', 'Created Ticket', 'TIKET DI BUAT', 'U0006');
+INSERT INTO `tracking` VALUES (671, 'T201807310019', '2018-08-08 11:02:48', 'Ticket disetujui', 'TICKET DITERIMA VENDOR SUPPORT', 'U0011');
+INSERT INTO `tracking` VALUES (673, 'T201807060007', '2018-08-08 11:03:12', 'Ticket disetujui', 'TICKET DITERIMA VENDOR SUPPORT', 'U0011');
+INSERT INTO `tracking` VALUES (674, 'T201807110012', '2018-08-08 11:03:14', 'Ticket disetujui', 'TICKET DITERIMA VENDOR SUPPORT', 'U0011');
+INSERT INTO `tracking` VALUES (675, 'T201807270018', '2018-08-08 11:03:26', 'Ticket disetujui', 'TICKET DITERIMA VENDOR SUPPORT', 'U0011');
+INSERT INTO `tracking` VALUES (676, 'T201808030021', '2018-08-08 11:03:37', 'Ticket disetujui', 'TICKET DITERIMA VENDOR SUPPORT', 'U0011');
+INSERT INTO `tracking` VALUES (679, 'T201807270018', '2018-08-08 14:16:51', 'Up Progress To 0 %', 'Bu Putri,\n\nUntuk case ini sedang di QC. Karena sebagian besar proses nya kita tune up.\nuntuk menghindari terjadinya lock proses.\nThanks\nhotniel', 'U0011');
+INSERT INTO `tracking` VALUES (681, 'T201808030021', '2018-08-08 14:19:36', 'Up Progress To 100 %', 'pak Heri,\n\n\nberdasarkan meeting pada tgl 02 agustus 2018 untuk case ini sudah di jelaskan oleh pak wawan ke bu jinny. Dan hasilnya, proses ini tidak ada perubahan dan mengikuti konsep yang sudah ada sekarang dalam system ast.\n\nHotniel', 'U0011');
+INSERT INTO `tracking` VALUES (682, 'T201807310019', '2018-08-08 14:21:29', 'Up Progress To 100 %', 'Dear Putri,\n\nuntuk kasus ini sudah di update via email tgl 01 agustus 2018.\n\nThanks\nHotniel', 'U0011');
+INSERT INTO `tracking` VALUES (683, 'T201807110013', '2018-08-08 14:22:25', 'Ticket disetujui', 'TICKET DITERIMA VENDOR SUPPORT', 'U0011');
+INSERT INTO `tracking` VALUES (684, 'T201807110013', '2018-08-08 14:23:20', 'Up Progress To 100 %', 'Pak heri,\n\nuntuk hal ini sudah di jelaskan oleh pak yulianto pada saat meeting tgl 02 agustus 2018.\nPenyebabnya ada format pada template di ubah oleh user.\n\nThanks\nhotniel Silaen', 'U0011');
+INSERT INTO `tracking` VALUES (685, 'T201807110012', '2018-08-08 14:25:39', 'Up Progress To 0 %', 'Dear Pak Ranggaung,\n\nSetelah saya melakukan QC untuk case ini. saya tidak menemukan masalah terkait OR auto.\nKonsepnya yang sekarang adalah jika masih ada invoice yang outstanding untuk debtor tersebut, maka pada saat download akan otomatis mengalokasikan nilai yang masih outstanding tersebut First In First Out (FIFO).\nMohon agar di cek kembali.\n\nThanks\nhotniel silaen', 'U0011');
+INSERT INTO `tracking` VALUES (686, 'T201807090008', '2018-08-08 14:26:39', 'Up Progress To 100 %', 'Dear Putri,\n\nUntuk case ini sudah di perbaiki dan sudah solve.\n\nThanks\nHotniel Silaen', 'U0011');
+INSERT INTO `tracking` VALUES (687, 'T201807060005', '2018-08-08 14:28:48', 'Up Progress To 100 %', 'Dear Pak Heri,\n\nUntuk case ini sudah di bahas pada tgl 02 agustus 2018.\nDan proses ini akan tetap dengan konsep yang sekarang.\n\nThanks\nHotniel', 'U0011');
+INSERT INTO `tracking` VALUES (689, 'T201807060007', '2018-08-08 14:41:28', 'Up Progress To 0 %', 'Heri\n\nuntuk hal ini sedang dilakukan pengecekan.\n\nthanks\nHotniel Silaen', 'U0011');
+INSERT INTO `tracking` VALUES (690, 'T201807090008', '2018-08-08 14:48:24', 'Unsolved', 'untuk tgl 1agustus tidak ada update untuk kasus ini, yg ada hanya untuk insert standing chargers ownership saja.', 'U0006');
+INSERT INTO `tracking` VALUES (691, 'T201807090008', '2018-08-08 15:15:31', 'Diproses oleh vendor support', '', 'U0011');
+INSERT INTO `tracking` VALUES (692, 'T201807090008', '2018-08-08 15:17:32', 'Up Progress To 100 %', 'Dear Bu Putri,\n\nUntuk case ini sudah di lakukan update pada tgl 20 Juli 2018.\n\nThanks\nhotniel Silaen', 'U0011');
+INSERT INTO `tracking` VALUES (693, 'T201807160014', '2018-08-08 15:30:14', 'Diproses oleh vendor support', '', 'U0011');
+INSERT INTO `tracking` VALUES (694, 'T201807090008', '2018-08-08 15:38:01', 'Unsolved', 'dear Hotniel,\ntolong di kirim ulang update untuk kasus ini. karena untuk tgl 20 saya hanya menerima update untuk ownership management yg tidak dapat melakukan proses untuk membuat invoice. terimakasih.', 'U0006');
+INSERT INTO `tracking` VALUES (695, 'T201807090008', '2018-08-08 15:59:44', 'Diproses oleh vendor support', '', 'U0011');
+INSERT INTO `tracking` VALUES (696, 'T201807090008', '2018-08-08 16:01:24', 'Up Progress To 100 %', 'Dear Bu Putri,\n\nMohon maaf bu, saya lupa.\nDi lokal saya saya sudah benerin, karena udah lewat hari saya ingat nya sudah kirim juga.\nTerlampir update untuk case ini.\n\nThanks\nHotniel Silaen', 'U0011');
+INSERT INTO `tracking` VALUES (697, 'T201808090022', '2018-08-09 08:34:52', 'Created Ticket', 'TIKET DI BUAT', 'U0008');
+INSERT INTO `tracking` VALUES (698, 'T201807250017', '2018-08-09 08:41:05', 'Unsolved', 'Masih belum benar', 'U0009');
+INSERT INTO `tracking` VALUES (720, 'T201807250017', '2018-08-10 08:53:33', 'Diproses oleh vendor support', '', 'U0011');
+INSERT INTO `tracking` VALUES (722, 'T201807250017', '2018-08-10 09:14:16', 'Up Progress To 100 %', 'Pak ranggaung,\n\nuntuk case ini, apakah lapiran saya sudah di update?\nkarena jika melihat date modify antara lokal saya dengan code yang saya terima per 01 agustus 2018 masih belum sama.\nMohon di cek kembali.\n\nThanks\nHotniel Silaen', 'U0011');
+INSERT INTO `tracking` VALUES (723, 'T201808090022', '2018-08-10 09:29:24', 'Ticket disetujui', 'TICKET DITERIMA VENDOR SUPPORT', 'U0011');
+INSERT INTO `tracking` VALUES (724, 'T201807110012', '2018-08-10 09:30:06', 'Up Progress To 100 %', '', 'U0011');
+INSERT INTO `tracking` VALUES (725, 'T201807160014', '2018-08-10 09:36:47', 'Up Progress To 100 %', 'Pak Ranggaung,\n\nUntuk case ini, tidak terbentuk billing karena booking date nya kosong.\nPada rabu kemarin, saya sudah langsung coba di live, \ndan sudah cek ke database nya juga. Setelah booking date nya saya isi, kemudian pada tab other charge saya edit > save. Billing nya sudah terbentuk.\n\nThanks\nHotniel', 'U0011');
+INSERT INTO `tracking` VALUES (726, 'T201807060006', '2018-08-10 09:37:54', 'Up Progress To 100 %', '', 'U0011');
+INSERT INTO `tracking` VALUES (727, 'T201808100023', '2018-08-10 10:34:45', 'Created Ticket', 'TIKET DI BUAT', 'U0008');
+INSERT INTO `tracking` VALUES (728, 'T201808100023', '2018-08-10 13:32:06', 'Ticket disetujui', 'TICKET DITERIMA VENDOR SUPPORT', 'U0014');
+INSERT INTO `tracking` VALUES (729, 'T201808100023', '2018-08-10 13:32:49', 'Up Progress To 0 %', 'Dear Pak Heri,\n\nUntuk form nya akan saya cek dan perbaiki, segera diinformasikan kembali hasil perbaikannya.', 'U0014');
+INSERT INTO `tracking` VALUES (741, 'T201805280002', '2018-08-10 16:35:12', 'Ticket dikembalikan ke posisi belum di setujui', '', 'U0016');
+INSERT INTO `tracking` VALUES (742, 'T201805280002', '2018-08-10 16:35:25', 'Ticket tidak disetujui', '', 'U0016');
+INSERT INTO `tracking` VALUES (753, 'T201807270018', '2018-08-13 09:03:12', 'Up Progress To 100 %', 'Dear Putri,\n\nTerlampir update untuk perbaikan user log.\nSekaligus tune up report.\n\nThanks\nHotniel Silaen', 'U0011');
+INSERT INTO `tracking` VALUES (755, 'T201805280002', '2018-08-13 09:08:36', 'Ticket dikembalikan ke posisi belum di setujui', '', 'U0011');
+INSERT INTO `tracking` VALUES (757, 'T201805280002', '2018-08-13 09:08:48', 'Ticket tidak disetujui', '', 'U0011');
+INSERT INTO `tracking` VALUES (761, 'T201807060007', '2018-08-13 09:20:33', 'Up Progress To 100 %', 'Dear Heri,\n\nTerlampir update untuk permasalahan ini.\nUpdate : pada saat buat booking entry baru setelah proses cancelation, debtor baru akan otomati mereplace debtor sebelum nya. Dan no VA untuk saat ini sudah ada di master unit.\n\nThanks\nHotniel Silaen', 'U0011');
+INSERT INTO `tracking` VALUES (763, 'T201807060007', '2018-08-13 09:34:07', 'Unsolved', 'Dear team ast mohon untuk upload file dengan file rar atau zip, karena file tersebut tidak bisa di download, terima kasih\n\nFYI\nada email ke email support ast dari admin ticketing tgl 08/08/2018 melampirkan info update module applikasi ticketing   ', 'U0008');
+INSERT INTO `tracking` VALUES (789, 'T201808140024', '2018-08-14 10:31:06', 'Created Ticket', 'TIKET DI BUAT', 'U0006');
+INSERT INTO `tracking` VALUES (790, 'T201808140024', '2018-08-14 10:58:57', 'Ticket disetujui', 'TICKET DITERIMA VENDOR SUPPORT', 'U0014');
+INSERT INTO `tracking` VALUES (791, 'T201808140024', '2018-08-14 10:59:38', 'Up Progress To 0 %', 'Dear Bu Putri,\n\nUntuk kendala ini akan kami cek dahulu, segara akan kami infokan update nya.\n\nTerima kasih\n-Yulianto', 'U0014');
+INSERT INTO `tracking` VALUES (792, 'T201807110012', '2018-08-14 14:56:35', 'Unsolved', 'Untuk form OR auto via (VA), invoice bulan berjalan tidak akan muncul jika masih ada outstanding. Jika unit tersebut disewakan ke orang lain dan penyewanya hanya mau bayar ipl bulan berjalan, bagaimana? ', 'U0009');
+INSERT INTO `tracking` VALUES (793, 'T201808150025', '2018-08-15 11:12:56', 'Created Ticket', 'TIKET DI BUAT', 'U0008');
+INSERT INTO `tracking` VALUES (794, 'T201808150025', '2018-08-15 11:18:58', 'Ticket disetujui', 'TICKET DITERIMA VENDOR SUPPORT', 'U0011');
+INSERT INTO `tracking` VALUES (795, 'T201808150025', '2018-08-15 11:19:53', 'Up Progress To 0 %', 'Pak Heri,\n\nUntuk case ini akan kami cek kembali untuk validasi nya, sehingga hal yang sama tidak terulang kembali.\n\nThanks\nHotniel Silaen', 'U0011');
+INSERT INTO `tracking` VALUES (796, 'T201807060007', '2018-08-15 11:25:36', 'Diproses oleh vendor support', '', 'U0011');
+INSERT INTO `tracking` VALUES (797, 'T201807060007', '2018-08-15 11:26:51', 'Up Progress To 100 %', 'Pak heri,\n\nTerlampir update untuk case ini.\n\nThanks\nHotniel Silaen', 'U0011');
+INSERT INTO `tracking` VALUES (798, 'T201808140024', '2018-08-16 08:30:18', 'Up Progress To 100 %', 'Terlampir untuk update form AP Debit Note. Silahkan diupdatekan ke server ya bu.\n\nTerima kasih\n-Yulianto', 'U0014');
+
+-- ----------------------------
+-- Table structure for tracking_email
+-- ----------------------------
+DROP TABLE IF EXISTS `tracking_email`;
+CREATE TABLE `tracking_email`  (
+  `id_email` int(11) NOT NULL AUTO_INCREMENT,
+  `id_ticket` varchar(13) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `tanggal` datetime NOT NULL,
+  `status` varchar(50) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `subject` text CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `id_user` varchar(5) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `tujuan` text CHARACTER SET latin1 COLLATE latin1_swedish_ci,
+  PRIMARY KEY (`id_email`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 58 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Compact;
+
+-- ----------------------------
+-- Records of tracking_email
+-- ----------------------------
+INSERT INTO `tracking_email` VALUES (15, 'T201808130024', '2018-08-13 09:01:02', '1', 'Created Ticket T201808130024', 'U0002', NULL);
+INSERT INTO `tracking_email` VALUES (25, 'T201808130024', '2018-08-13 09:20:25', '8', 'Confirm New Ticket T201808130024', 'U0002', NULL);
+INSERT INTO `tracking_email` VALUES (26, 'T201807060007', '2018-08-13 09:20:33', '4', 'Completed Ticket T201807060007', 'U0011', NULL);
+INSERT INTO `tracking_email` VALUES (27, 'T201808130024', '2018-08-13 09:29:40', '2', 'Ticketing Approved T201808130024', 'U0016', NULL);
+INSERT INTO `tracking_email` VALUES (28, 'T201808130024', '2018-08-13 09:38:53', '4', 'Processing Ticket T201808130024', 'U0016', NULL);
+INSERT INTO `tracking_email` VALUES (29, 'T201808130024', '2018-08-13 09:50:12', '5', 'Completed Ticket T201808130024', 'U0016', NULL);
+INSERT INTO `tracking_email` VALUES (34, 'T201808130024', '2018-08-13 12:12:15', '3', 'Complain Ticket T201808130024', 'U0002', 'panjihadjarati@modernland.co.id');
+INSERT INTO `tracking_email` VALUES (35, 'T201808130024', '2018-08-13 12:21:54', '4', 'Reprocess Ticket T201808130024', 'U0016', 'panjihadjarati@modernland.co.id');
+INSERT INTO `tracking_email` VALUES (36, 'T201808130024', '2018-08-13 12:25:14', '4', 'Processing Ticket T201808130024', 'U0016', 'panjihadjarati@modernland.co.id');
+INSERT INTO `tracking_email` VALUES (37, 'T201808130024', '2018-08-13 12:30:55', '4', 'User Comment On Processing Ticket T201808130024', 'U0002', NULL);
+INSERT INTO `tracking_email` VALUES (38, 'T201808130024', '2018-08-13 12:34:01', '5', 'Completed Ticket T201808130024', 'U0016', 'panjihadjarati@modernland.co.id');
+INSERT INTO `tracking_email` VALUES (39, 'T201808130024', '2018-08-13 12:37:37', '3', 'Complain Ticket T201808130024', 'U0002', 'panjihadjarati@modernland.co.id');
+INSERT INTO `tracking_email` VALUES (40, 'T201808130024', '2018-08-13 12:39:49', '7', 'Rejected Ticket T201808130024', 'U0016', NULL);
+INSERT INTO `tracking_email` VALUES (41, 'T201808130024', '2018-08-13 12:42:21', '1', 'Reprocessed Ticket T201808130024', 'U0016', 'panjihadjarati@modernland.co.id');
+INSERT INTO `tracking_email` VALUES (42, 'T201808130024', '2018-08-13 12:44:14', '2', 'Approved Ticket T201808130024', 'U0016', 'panjihadjarati@modernland.co.id');
+INSERT INTO `tracking_email` VALUES (43, 'T201808130024', '2018-08-13 12:56:25', '5', 'Completed Ticket T201808130024', 'U0016', 'panjihadjarati@modernland.co.id');
+INSERT INTO `tracking_email` VALUES (44, 'T201808130024', '2018-08-13 13:05:39', '6', 'Ticketing Completed T201808130024', 'U0002', 'panjihadjarati@modernland.co.id');
+INSERT INTO `tracking_email` VALUES (45, 'T201807250017', '2018-08-13 13:35:35', '6', 'Solved Ticket T201807250017', 'U0009', 'ast.drive123@gmail.com,support@ast-global.co.id,jie.piranha@gmail.com,panjihadjarati@modernland.co.id');
+INSERT INTO `tracking_email` VALUES (46, 'T201808140024', '2018-08-14 10:31:06', '1', 'Created Ticket T201808140024', 'U0006', NULL);
+INSERT INTO `tracking_email` VALUES (47, 'T201808140024', '2018-08-14 10:58:57', '2', 'Approved Ticket T201808140024', 'U0014', 'ticketing.ast@modernland.co.id');
+INSERT INTO `tracking_email` VALUES (48, 'T201808140024', '2018-08-14 10:59:38', '4', 'Processing Ticket T201808140024', 'U0014', 'ticketing.ast@modernland.co.id');
+INSERT INTO `tracking_email` VALUES (49, 'T201807160014', '2018-08-14 14:54:13', '6', 'Solved Ticket T201807160014', 'U0009', 'ast.drive123@gmail.com,support@ast-global.co.id,jie.piranha@gmail.com,panjihadjarati@modernland.co.id');
+INSERT INTO `tracking_email` VALUES (50, 'T201807110012', '2018-08-14 14:56:35', '6', 'Complain Ticket T201807110012', 'U0009', 'ast.drive123@gmail.com,support@ast-global.co.id,jie.piranha@gmail.com,panjihadjarati@modernland.co.id');
+INSERT INTO `tracking_email` VALUES (51, 'T201808150025', '2018-08-15 11:12:56', '1', 'Created Ticket T201808150025', 'U0008', NULL);
+INSERT INTO `tracking_email` VALUES (52, 'T201808150025', '2018-08-15 11:18:58', '2', 'Approved Ticket T201808150025', 'U0011', 'ticketing.ast@modernland.co.id');
+INSERT INTO `tracking_email` VALUES (53, 'T201808150025', '2018-08-15 11:19:53', '4', 'Processing Ticket T201808150025', 'U0011', 'ticketing.ast@modernland.co.id');
+INSERT INTO `tracking_email` VALUES (54, 'T201807060007', '2018-08-15 11:25:36', '6', 'Reprocess Ticket T201807060007', 'U0011', 'ticketing.ast@modernland.co.id');
+INSERT INTO `tracking_email` VALUES (55, 'T201807060007', '2018-08-15 11:26:51', '5', 'Completed Ticket T201807060007', 'U0011', 'ticketing.ast@modernland.co.id');
+INSERT INTO `tracking_email` VALUES (56, 'T201807060007', '2018-08-15 16:51:13', '6', 'Solved Ticket T201807060007', 'U0008', 'ast.drive123@gmail.com,support@ast-global.co.id,jie.piranha@gmail.com,panjihadjarati@modernland.co.id');
+INSERT INTO `tracking_email` VALUES (57, 'T201808140024', '2018-08-16 08:30:18', '5', 'Completed Ticket T201808140024', 'U0014', 'ticketing.ast@modernland.co.id');
+
+-- ----------------------------
+-- Table structure for user
+-- ----------------------------
+DROP TABLE IF EXISTS `user`;
+CREATE TABLE `user`  (
+  `id_user` varchar(11) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `nama` varchar(35) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `alamat` text CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `email` text CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `username` varchar(20) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `password` varchar(32) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `level` varchar(10) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `vendor` text CHARACTER SET latin1 COLLATE latin1_swedish_ci,
+  PRIMARY KEY (`id_user`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Compact;
+
+-- ----------------------------
+-- Records of user
+-- ----------------------------
+INSERT INTO `user` VALUES ('U0001', 'ARITIO', 'TANGERANG', 'aritio@modernland.co.id;simatupangfunky@gmail.com', 'aritio', '9c7cc2cde1939666d314378b18857721', 'ADMIN', 'modernland');
+INSERT INTO `user` VALUES ('U0002', 'PANJI', 'JAKARTA', 'panjihadjarati@modernland.co.id', 'panji', '9c7cc2cde1939666d314378b18857721', 'USER', 'modernland');
+INSERT INTO `user` VALUES ('U0003', 'HENDRI', 'JAKARTA', 'hendri@modernland.co.id', 'hendri', '9c7cc2cde1939666d314378b18857721', 'ADMIN', 'modernland');
+INSERT INTO `user` VALUES ('U0005', 'HANNY', 'JAKARTA', 'ticketing.ast@modernland.co.id', 'hanny', '9c7cc2cde1939666d314378b18857721', 'USER', 'modernland');
+INSERT INTO `user` VALUES ('U0006', 'PUTRI', 'JAKARTA', 'ticketing.ast@modernland.co.id', 'putri', 'a341a74ea661afcb5d8bdb07438987b0', 'USER', 'modernland');
+INSERT INTO `user` VALUES ('U0007', 'ESTER', 'JAKARTA GARDEN CITY', 'ticketing.ast@modernland.co.id', 'ester', '9c7cc2cde1939666d314378b18857721', 'USER', 'modernland');
+INSERT INTO `user` VALUES ('U0008', 'HERI DARMAWAN', 'JAKARTA GARDEN CITY', 'ticketing.ast@modernland.co.id', 'heridar', '4a2db3403a08e35f978b18e9e4f15048', 'USER', 'modernland');
+INSERT INTO `user` VALUES ('U0009', 'RANGGAUNG', 'MODERN CIKANDE', 'ticketing.ast@modernland.co.id', 'ranggaung', '9c7cc2cde1939666d314378b18857721', 'USER', 'modernland');
+INSERT INTO `user` VALUES ('U0011', 'AST SUPPORT', 'JAKARTA', 'ast.drive123@gmail.com,support@ast-global.co.id,jie.piranha@gmail.com,panjihadjarati@modernland.co.id', 'supportast', '82080600934821faf0bc59cba79964bc', 'VENDOR', 'ast');
+INSERT INTO `user` VALUES ('U0012', 'REALTA', 'JAKARTA', 'jie.piranha@gmail.com', 'supportrealta', '9c7cc2cde1939666d314378b18857721', 'VENDOR', 'realta');
+INSERT INTO `user` VALUES ('U0013', 'JOVI', 'DEPOK', 'jie.piranha@gmail.com', 'jovi', '9c7cc2cde1939666d314378b18857721', 'USER', 'pgm');
+INSERT INTO `user` VALUES ('U0014', 'AST SUPPORT 2', 'JAKARTA', 'ast.drive123@gmail.com,support@ast-global.co.id,panjihadjarati@modernland.co.id,jie.piranha@gmail.com', 'supportast2', 'ccad16e0fe658a17b289328b26fb1931', 'VENDOR', 'ast');
+INSERT INTO `user` VALUES ('U0015', 'TAMARA', 'JAKARTA', 'tamara@modernland.co.id', 'tamara', '2c216b1ba5e33a27eb6d3df7de7f8c36', 'USER', 'modernland');
+INSERT INTO `user` VALUES ('U0016', 'SUPPORT TEST', 'JAKARTA', 'panjihadjarati@modernland.co.id', 'supportaja', '9c7cc2cde1939666d314378b18857721', 'VENDOR', 'ast');
+
+SET FOREIGN_KEY_CHECKS = 1;

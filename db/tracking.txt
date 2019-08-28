@@ -1,0 +1,1390 @@
+"337"	"T201805210001"	"21/5/2018 09:15:38"					"Created Ticket"	"TIKET DI BUAT"	"U0005"
+"338"	"T201805210001"	"21/5/2018 09:17:57"					"Ticket disetujui"	"TICKET DIBERIKAN KEPADA VENDOR SUPPORT"	"U0011"
+"339"	"T201805210001"	"21/5/2018 09:27:05"					"Diproses oleh vendor support"		"U0011"
+"340"	"T201805210001"	"21/5/2018 09:29:33"					"Up Progress To 0 %"	"DIPOSESBARU"	"U0011"
+"341"	"T201805210001"	"21/5/2018 09:45:10"					"Up Progress To 100 %"	"SELESAI"	"U0011"
+"342"	"T201805210001"	"21/5/2018 10:11:17"					"Unsolved"	"Belum Tuntas"	"U0005"
+"343"	"T201805210001"	"21/5/2018 10:11:58"					"Diproses oleh vendor support"		"U0011"
+"344"	"T201805210001"	"21/5/2018 10:12:06"					"Up Progress To 0 %"	"PROSES KEMBALI"	"U0011"
+"345"	"T201805210001"	"21/5/2018 10:18:51"					"Up Progress To 100 %"	"FINISH"	"U0011"
+"346"	"T201805210001"	"21/5/2018 10:20:32"					"Unsolved"	"Masih belum selesai"	"U0005"
+"347"	"T201805210001"	"21/5/2018 10:26:48"					"Diproses oleh vendor support"		"U0011"
+"348"	"T201805210001"	"21/5/2018 10:27:02"					"Up Progress To 0 %"	"PROSES LAGI"	"U0011"
+"349"	"T201805210001"	"21/5/2018 10:32:18"					"Up Progress To 100 %"	"ENDING"	"U0011"
+"462"	"T201805300003"	"30/5/2018 08:56:26"					"Created Ticket"	"TIKET DI BUAT"	"U0009"
+"463"	"T201805280002"	"7/6/2018 11:47:34"					"Created Ticket"	"TIKET DI BUAT"	"U0005"
+"475"	"T201805300003"	"4/7/2018 09:02:32"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"476"	"T201805300003"	"4/7/2018 09:04:21"					"Up Progress To 0 %"	"PAK RANGGAUNG,
+
+UNTUK CASE INI BUKAN NYA UDAH DIPERBAIKI YAH?
+INI TICKETING UNTUK TEST ATAU BUKAN YA PAK?
+
+THANKS
+HOTNIEL SILAEN"	"U0011"
+"490"	"T201807060004"	"6/7/2018 14:31:31"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"491"	"T201807060005"	"6/7/2018 14:38:55"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"492"	"T201807060006"	"6/7/2018 14:41:25"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"493"	"T201807060007"	"6/7/2018 14:43:23"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"494"	"T201807090008"	"9/7/2018 09:04:15"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"495"	"T201807060005"	"9/7/2018 09:30:16"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"496"	"T201807060005"	"9/7/2018 09:34:23"					"Up Progress To 0 %"	"PAK HERI,
+
+UNTUK KASUS INI SERPERTI YANG SUDAH DI BAHAS, AKAN DI KENAKAN CHARGE.
+HAL INI AKAN DIKENAKAN 3 MAINDAYS. HAL INI KARENA PERUBAHAN KONSEP DARI YANG SUDAH BERJALAN. PERUBAHANNYA MENCAKUP FORM DAN JUGA STORE PROCEDURE POSTING PENALTY.
+
+THANKS
+HOTNIEL SILAEN"	"U0011"
+"497"	"T201805280002"	"9/7/2018 09:45:32"					"Ticket tidak disetujui"		"U0011"
+"499"	"T201807060006"	"9/7/2018 09:46:41"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"500"	"T201807060006"	"9/7/2018 09:49:32"					"Up Progress To 0 %"	"PAK HERI,
+
+UNTUK PRINT ALL AJB INI KEMUNGKINAN AKAN MENYEBABKAN SYSTEM JADI LAMBAT. HAL INI KARENA SEMUA DATA AJB AKAN DI PRINT SEKALIGUS. SEMAKIN BANYAK DATA AJB YANG DI INPUT MAKA SEMAKIN LAMA PROSES LOADING NYA.
+ADA KEMUNGKINAN JUGA, HAL INI AKAN MENGGANGGU PROSES TRANSAKSI LAIN YANG DILAKUKAN BERSAMAAN ATAU SETELAH PROSES PRINT INI DILAKUKAN
+
+APAKAH TIDAK MASALAH JIKA PROSES NYA LAMA?
+
+THANKS
+HOTNIEL SILAEN"	"U0011"
+"501"	"T201807090009"	"9/7/2018 13:50:07"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"502"	"T201807090009"	"9/7/2018 13:56:33"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"503"	"T201807090010"	"9/7/2018 14:03:22"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"511"	"T201807090010"	"9/7/2018 14:31:47"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"513"	"T201807090009"	"9/7/2018 14:35:57"					"Up Progress To 0 %"		"U0011"
+"514"	"T201807090009"	"9/7/2018 14:40:06"					"Up Progress To 100 %"	"MOHON DIUPDATE KE SERVER, UNTUK DATA YANG LAMA CARA IMPORT TIDAK BISA LANGSUNG, JADI SAYA BUATKAN SCRIPT UNTUK INSERT DATA DARI DATABASE LAMA NYA. RSTORE DATABASE TANGGAL 28 MEI 2018, DENGAN NAMA PMS_STANDARD_0528, LALU JALANKAN SCRIPT ""INSERT DATA"" YANG TERLAMPIR DI ATTACHMENT UNTUK INSERT DATA LAMA KE DATABASE PMS_STANDARD"	"U0011"
+"526"	"T201807090009"	"10/7/2018 09:07:25"					"Unsolved"	"unsolved"	"U0006"
+"527"	"T201807090009"	"10/7/2018 09:16:37"					"Diproses oleh vendor support"		"U0011"
+"528"	"T201807090009"	"10/7/2018 09:18:05"					"Up Progress To 0 %"	"NOTE REFER TO LAST INFORMATION ON THIS TICKET"	"U0011"
+"529"	"T201807090009"	"10/7/2018 09:18:28"					"Up Progress To 100 %"		"U0011"
+"533"	"T201807110011"	"11/7/2018 09:42:48"					"Created Ticket"	"TIKET DI BUAT"	"U0007"
+"534"	"T201807110012"	"11/7/2018 10:25:56"					"Created Ticket"	"TIKET DI BUAT"	"U0009"
+"535"	"T201807060004"	"11/7/2018 10:48:53"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"536"	"T201807090008"	"11/7/2018 10:49:18"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"537"	"T201807110011"	"11/7/2018 10:56:07"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"538"	"T201807110011"	"11/7/2018 10:57:34"					"Up Progress To 100 %"	"DEAR BU ESTER,
+
+TERLAMPIR UPDATE UNTUK PERMASALAHAN INI.
+
+THANKS
+HOTNIEL SILAEN"	"U0011"
+"539"	"T201805300003"	"11/7/2018 11:24:43"					"Up Progress To 100 %"		"U0011"
+"540"	"T201807060004"	"11/7/2018 11:53:25"					"Up Progress To 100 %"	"PAK HERI,
+
+TERLAMPIR UPDATE UNTUK KASUS PENGALIHAN HAK OWNERSHIP.
+
+THANKS
+HOTNIEL SILAEN"	"U0011"
+"541"	"T201807110013"	"11/7/2018 17:05:30"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"542"	"T201807160014"	"16/7/2018 17:24:00"					"Created Ticket"	"TIKET DI BUAT"	"U0009"
+"543"	"T201807160014"	"17/7/2018 16:29:03"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"544"	"T201807060004"	"18/7/2018 09:36:40"					"Unsolved"	"Mohon di betulkan kembali sesuai pembicaraan lewat telp dengan bu ester"	"U0008"
+"545"	"T201807180015"	"18/7/2018 10:37:26"					"Created Ticket"	"TIKET DI BUAT"	"U0009"
+"546"	"T201807180016"	"18/7/2018 17:28:07"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"547"	"T201807180016"	"19/7/2018 11:30:14"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"548"	"T201807180016"	"19/7/2018 11:35:41"					"Up Progress To 0 %"	"PAK HERI, KALAU SAYA LIHAT DARI DATA INVOICE NYA.
+UNTUK PAJAK NYA ADALAH INCLUSIVE, SEHINGGA NILAI  PADA SAAT ALOKASI NILAI MAX ALOKASINYA ITU ADALAH NILAI SETELAH DI KURANGI DENGAN NILAI PAJAK.  
+THANKS"	"U0011"
+"549"	"T201807180016"	"19/7/2018 11:35:48"					"Up Progress To 100 %"	"PAK HERI, KALAU SAYA LIHAT DARI DATA INVOICE NYA.
+UNTUK PAJAK NYA ADALAH INCLUSIVE, SEHINGGA NILAI  PADA SAAT ALOKASI NILAI MAX ALOKASINYA ITU ADALAH NILAI SETELAH DI KURANGI DENGAN NILAI PAJAK.  
+THANKS"	"U0011"
+"550"	"T201807180015"	"19/7/2018 11:36:36"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"551"	"T201807180016"	"19/7/2018 13:38:49"					"Unsolved"	"iya pak hotniel inclusive, klo yang di masukin harga ny yg sebelum pajak bukan ny  exclusive pak?"	"U0008"
+"554"	"T201807160014"	"20/7/2018 17:04:21"					"Up Progress To 100 %"	"PAK RANGGAUNG,
+
+UNTUK PERMASALAHAN INI SUDAH SAYA PERBAIKI.
+PERBAIKAN DILAKUKAN PADA LEVEL FORM.
+BERIKUT LINK UNTUK UPDATEAN NYA.
+HTTPS://DRIVE.GOOGLE.COM/OPEN?ID=1OFCQAS36AJSAEELQKCZCENG5LIDSUZ_K
+
+THANKS
+HOTNIEL SILAEN"	"U0011"
+"555"	"T201807180015"	"23/7/2018 09:29:33"					"Up Progress To 0 %"	"Pak Ranggaung,
+
+Untuk error ini saya sudah coba via graphon dan tidak ada masalah. 
+Mohon di cek kembali.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"556"	"T201807180016"	"23/7/2018 15:26:13"					"Diproses oleh vendor support"		"U0011"
+"557"	"T201807180016"	"23/7/2018 15:27:13"					"Up Progress To 100 %"	"Pak Heri,
+
+Terlampir link untuk file update terkait permasalahan di atas.
+https://drive.google.com/open?id=161S-hK6e20PNRr3vWwrXkDXjm5XMgZIa
+
+Thanks
+Hotniel Silaen"	"U0011"
+"558"	"T201807060004"	"23/7/2018 15:27:52"					"Diproses oleh vendor support"		"U0011"
+"559"	"T201807060004"	"23/7/2018 15:28:17"					"Up Progress To 100 %"	"Untuk permasalahan ini sudah di kirimkan kembali perbaikannya."	"U0011"
+"560"	"T201807180015"	"23/7/2018 15:29:39"					"Up Progress To 100 %"	"Setelah di cek via graphon, tidak di temukan masalah terkait hal ini.
+Mohon di cek kembali, kemungkinan kendala nya muncul karena jaringan internet putus untuk project GSM nya."	"U0011"
+"561"	"T201805280002"	"24/7/2018 10:47:41"					"Ticket dikembalikan ke posisi belum di setujui"		"U0011"
+"562"	"T201805280002"	"24/7/2018 10:47:45"					"Ticket tidak disetujui"		"U0011"
+"563"	"T201807160014"	"25/7/2018 10:30:49"					"Unsolved"	"Saya cek untuk form ini masih belum bisa, terutam untuk invoice bulan juli."	"U0009"
+"564"	"T201807090010"	"25/7/2018 10:41:08"					"Up Progress To 100 %"	"Pak Heri silahkan diupdate."	"U0011"
+"565"	"T201807090010"	"25/7/2018 11:05:52"					"Unsolved"	"pak yulianto/pak hotniel, tolong di upload dengan file zip, atau bisa di email, karena file rar tidak kebaca di app ticket, terima kasih"	"U0008"
+"566"	"T201807250017"	"25/7/2018 11:37:37"					"Created Ticket"	"TIKET DI BUAT"	"U0009"
+"584"	"T201807250017"	"26/7/2018 08:57:23"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"585"	"T201807250017"	"26/7/2018 08:58:11"					"Up Progress To 100 %"	"Pak Ranggaung,
+
+Terlampir update untuk permasalahan ini.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"590"	"T201807270018"	"27/7/2018 11:13:53"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"597"	"T201807310019"	"31/7/2018 14:35:01"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"626"	"T201807090010"	"2/8/2018 14:43:50"					"Diproses oleh vendor support"		"U0011"
+"627"	"T201808020020"	"2/8/2018 14:48:16"					"Created Ticket"	"TIKET DI BUAT"	"U0007"
+"628"	"T201807090010"	"2/8/2018 14:53:33"					"Up Progress To 100 %"	"Dear Pak Heri,
+
+Terlampir untuk update file nya dengan sudah saya ubah ke zip.
+Silahkan diupdatekan ke server."	"U0011"
+"629"	"T201808020020"	"2/8/2018 14:54:20"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"630"	"T201808020020"	"2/8/2018 14:55:51"					"Up Progress To 0 %"	"Dear bu Ester,
+
+Terlampir untuk update form PL Activity yang tidak bisa save record lebih dari 1.
+Silahkan diupdate ke server."	"U0011"
+"635"	"T201807090010"	"2/8/2018 16:34:09"					"Unsolved"	"Tolong di upload ulang pak yulianto, terima kasih"	"U0008"
+"636"	"T201808020020"	"2/8/2018 16:41:07"					"Up Progress To 100 %"	"Dear bu Ester, coba dengan file ini, bisa di download tidak?"	"U0011"
+"637"	"T201807090010"	"2/8/2018 16:41:49"					"Diproses oleh vendor support"		"U0011"
+"638"	"T201807090010"	"2/8/2018 16:42:52"					"Up Progress To 100 %"	"Dear Pak Heri,
+
+Coba lagi ya pak, sudah saya upload ulang."	"U0011"
+"646"	"T201808030021"	"3/8/2018 09:03:41"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"671"	"T201807310019"	"8/8/2018 11:02:48"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"673"	"T201807060007"	"8/8/2018 11:03:12"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"674"	"T201807110012"	"8/8/2018 11:03:14"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"675"	"T201807270018"	"8/8/2018 11:03:26"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"676"	"T201808030021"	"8/8/2018 11:03:37"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"679"	"T201807270018"	"8/8/2018 14:16:51"					"Up Progress To 0 %"	"Bu Putri,
+
+Untuk case ini sedang di QC. Karena sebagian besar proses nya kita tune up.
+untuk menghindari terjadinya lock proses.
+Thanks
+hotniel"	"U0011"
+"681"	"T201808030021"	"8/8/2018 14:19:36"					"Up Progress To 100 %"	"pak Heri,
+
+
+berdasarkan meeting pada tgl 02 agustus 2018 untuk case ini sudah di jelaskan oleh pak wawan ke bu jinny. Dan hasilnya, proses ini tidak ada perubahan dan mengikuti konsep yang sudah ada sekarang dalam system ast.
+
+Hotniel"	"U0011"
+"682"	"T201807310019"	"8/8/2018 14:21:29"					"Up Progress To 100 %"	"Dear Putri,
+
+untuk kasus ini sudah di update via email tgl 01 agustus 2018.
+
+Thanks
+Hotniel"	"U0011"
+"683"	"T201807110013"	"8/8/2018 14:22:25"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"684"	"T201807110013"	"8/8/2018 14:23:20"					"Up Progress To 100 %"	"Pak heri,
+
+untuk hal ini sudah di jelaskan oleh pak yulianto pada saat meeting tgl 02 agustus 2018.
+Penyebabnya ada format pada template di ubah oleh user.
+
+Thanks
+hotniel Silaen"	"U0011"
+"685"	"T201807110012"	"8/8/2018 14:25:39"					"Up Progress To 0 %"	"Dear Pak Ranggaung,
+
+Setelah saya melakukan QC untuk case ini. saya tidak menemukan masalah terkait OR auto.
+Konsepnya yang sekarang adalah jika masih ada invoice yang outstanding untuk debtor tersebut, maka pada saat download akan otomatis mengalokasikan nilai yang masih outstanding tersebut First In First Out (FIFO).
+Mohon agar di cek kembali.
+
+Thanks
+hotniel silaen"	"U0011"
+"686"	"T201807090008"	"8/8/2018 14:26:39"					"Up Progress To 100 %"	"Dear Putri,
+
+Untuk case ini sudah di perbaiki dan sudah solve.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"687"	"T201807060005"	"8/8/2018 14:28:48"					"Up Progress To 100 %"	"Dear Pak Heri,
+
+Untuk case ini sudah di bahas pada tgl 02 agustus 2018.
+Dan proses ini akan tetap dengan konsep yang sekarang.
+
+Thanks
+Hotniel"	"U0011"
+"689"	"T201807060007"	"8/8/2018 14:41:28"					"Up Progress To 0 %"	"Heri
+
+untuk hal ini sedang dilakukan pengecekan.
+
+thanks
+Hotniel Silaen"	"U0011"
+"690"	"T201807090008"	"8/8/2018 14:48:24"					"Unsolved"	"untuk tgl 1agustus tidak ada update untuk kasus ini, yg ada hanya untuk insert standing chargers ownership saja."	"U0006"
+"691"	"T201807090008"	"8/8/2018 15:15:31"					"Diproses oleh vendor support"		"U0011"
+"692"	"T201807090008"	"8/8/2018 15:17:32"					"Up Progress To 100 %"	"Dear Bu Putri,
+
+Untuk case ini sudah di lakukan update pada tgl 20 Juli 2018.
+
+Thanks
+hotniel Silaen"	"U0011"
+"693"	"T201807160014"	"8/8/2018 15:30:14"					"Diproses oleh vendor support"		"U0011"
+"694"	"T201807090008"	"8/8/2018 15:38:01"					"Unsolved"	"dear Hotniel,
+tolong di kirim ulang update untuk kasus ini. karena untuk tgl 20 saya hanya menerima update untuk ownership management yg tidak dapat melakukan proses untuk membuat invoice. terimakasih."	"U0006"
+"695"	"T201807090008"	"8/8/2018 15:59:44"					"Diproses oleh vendor support"		"U0011"
+"696"	"T201807090008"	"8/8/2018 16:01:24"					"Up Progress To 100 %"	"Dear Bu Putri,
+
+Mohon maaf bu, saya lupa.
+Di lokal saya saya sudah benerin, karena udah lewat hari saya ingat nya sudah kirim juga.
+Terlampir update untuk case ini.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"697"	"T201808090022"	"9/8/2018 08:34:52"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"698"	"T201807250017"	"9/8/2018 08:41:05"					"Unsolved"	"Masih belum benar"	"U0009"
+"720"	"T201807250017"	"10/8/2018 08:53:33"					"Diproses oleh vendor support"		"U0011"
+"722"	"T201807250017"	"10/8/2018 09:14:16"					"Up Progress To 100 %"	"Pak ranggaung,
+
+untuk case ini, apakah lapiran saya sudah di update?
+karena jika melihat date modify antara lokal saya dengan code yang saya terima per 01 agustus 2018 masih belum sama.
+Mohon di cek kembali.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"723"	"T201808090022"	"10/8/2018 09:29:24"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"724"	"T201807110012"	"10/8/2018 09:30:06"					"Up Progress To 100 %"		"U0011"
+"725"	"T201807160014"	"10/8/2018 09:36:47"					"Up Progress To 100 %"	"Pak Ranggaung,
+
+Untuk case ini, tidak terbentuk billing karena booking date nya kosong.
+Pada rabu kemarin, saya sudah langsung coba di live, 
+dan sudah cek ke database nya juga. Setelah booking date nya saya isi, kemudian pada tab other charge saya edit > save. Billing nya sudah terbentuk.
+
+Thanks
+Hotniel"	"U0011"
+"726"	"T201807060006"	"10/8/2018 09:37:54"					"Up Progress To 100 %"		"U0011"
+"727"	"T201808100023"	"10/8/2018 10:34:45"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"728"	"T201808100023"	"10/8/2018 13:32:06"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"729"	"T201808100023"	"10/8/2018 13:32:49"					"Up Progress To 0 %"	"Dear Pak Heri,
+
+Untuk form nya akan saya cek dan perbaiki, segera diinformasikan kembali hasil perbaikannya."	"U0014"
+"741"	"T201805280002"	"10/8/2018 16:35:12"					"Ticket dikembalikan ke posisi belum di setujui"		"U0016"
+"742"	"T201805280002"	"10/8/2018 16:35:25"					"Ticket tidak disetujui"		"U0016"
+"753"	"T201807270018"	"13/8/2018 09:03:12"					"Up Progress To 100 %"	"Dear Putri,
+
+Terlampir update untuk perbaikan user log.
+Sekaligus tune up report.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"755"	"T201805280002"	"13/8/2018 09:08:36"					"Ticket dikembalikan ke posisi belum di setujui"		"U0011"
+"757"	"T201805280002"	"13/8/2018 09:08:48"					"Ticket tidak disetujui"		"U0011"
+"761"	"T201807060007"	"13/8/2018 09:20:33"					"Up Progress To 100 %"	"Dear Heri,
+
+Terlampir update untuk permasalahan ini.
+Update : pada saat buat booking entry baru setelah proses cancelation, debtor baru akan otomati mereplace debtor sebelum nya. Dan no VA untuk saat ini sudah ada di master unit.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"763"	"T201807060007"	"13/8/2018 09:34:07"					"Unsolved"	"Dear team ast mohon untuk upload file dengan file rar atau zip, karena file tersebut tidak bisa di download, terima kasih
+
+FYI
+ada email ke email support ast dari admin ticketing tgl 08/08/2018 melampirkan info update module applikasi ticketing   "	"U0008"
+"789"	"T201808140024"	"14/8/2018 10:31:06"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"790"	"T201808140024"	"14/8/2018 10:58:57"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"791"	"T201808140024"	"14/8/2018 10:59:38"					"Up Progress To 0 %"	"Dear Bu Putri,
+
+Untuk kendala ini akan kami cek dahulu, segara akan kami infokan update nya.
+
+Terima kasih
+-Yulianto"	"U0014"
+"792"	"T201807110012"	"14/8/2018 14:56:35"					"Unsolved"	"Untuk form OR auto via (VA), invoice bulan berjalan tidak akan muncul jika masih ada outstanding. Jika unit tersebut disewakan ke orang lain dan penyewanya hanya mau bayar ipl bulan berjalan, bagaimana? "	"U0009"
+"793"	"T201808150025"	"15/8/2018 11:12:56"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"794"	"T201808150025"	"15/8/2018 11:18:58"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"795"	"T201808150025"	"15/8/2018 11:19:53"					"Up Progress To 0 %"	"Pak Heri,
+
+Untuk case ini akan kami cek kembali untuk validasi nya, sehingga hal yang sama tidak terulang kembali.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"796"	"T201807060007"	"15/8/2018 11:25:36"					"Diproses oleh vendor support"		"U0011"
+"797"	"T201807060007"	"15/8/2018 11:26:51"					"Up Progress To 100 %"	"Pak heri,
+
+Terlampir update untuk case ini.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"798"	"T201808140024"	"16/8/2018 08:30:18"					"Up Progress To 100 %"	"Terlampir untuk update form AP Debit Note. Silahkan diupdatekan ke server ya bu.
+
+Terima kasih
+-Yulianto"	"U0014"
+"799"	"T201808100023"	"21/8/2018 10:22:16"					"Up Progress To 100 %"	"Dear Pak Heri,
+
+Untuk case ini sudah saya perbaiki ya pak, langsung saya update ke database nya untuk penambahan primary key nya. Saya sertakan juga script update nya.
+
+Terima kasih
+-Yulianto"	"U0014"
+"807"	"T201808100023"	"21/8/2018 14:43:54"					"Up Progress To 100 %"	"re upload file update"	"U0014"
+"813"	"T201807110012"	"23/8/2018 08:55:47"					"Diproses oleh vendor support"		"U0011"
+"814"	"T201807110012"	"23/8/2018 09:00:01"					"Up Progress To 0 %"	"Pak Ranggaung,
+
+Jika melihat dari konsep yang sudah berjalan sekarang, OR auto VA akan otomatis mengalikasikan invoice yang masih outstanding untuk debtor terkait.
+Kalau konsep yang dari pak ranggaung berarti jika menggunakan OR auto VA maka invoice yang masih outstanding tidak muncul atau gimana ya pak?
+Mohon penjelasannya.
+Dan untuk debtor yang hanya akan melakukan pembayaran untuk invoice IPL di bulan berjalan sementara kodisinya di bulan sebelum nya masih ada invoice outstanding maka proses nya adalah dengan melakukan proses refresh data sehingga invoice IPL yang akan di alokasikan muncul pada list detailnya.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"815"	"T201808100023"	"23/8/2018 11:18:08"					"Unsolved"	"Tolong di upload ulang, terima kasih
+"	"U0008"
+"821"	"T201808100023"	"23/8/2018 10:51:29"					"Diproses oleh vendor support"		"U0014"
+"822"	"T201808100023"	"23/8/2018 10:52:45"					"Up Progress To 100 %"	"Re Upload File"	"U0014"
+"823"	"T201808150025"	"24/8/2018 15:01:16"					"Up Progress To 100 %"	"Pak heri,
+untuk kasus ini, terlampir update validasi proses pengajuan kredit nya.
+Validasi nya di buat pada form Approval Akad Kredit sebelum masuk ke proses KPR.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"824"	"T201808270026"	"27/8/2018 09:43:46"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"825"	"T201808270026"	"27/8/2018 09:49:08"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"826"	"T201808270026"	"27/8/2018 10:00:02"					"Up Progress To 0 %"	"Bu Putri,
+
+untuk hal ini akan di cek kembali.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"827"	"T201808270027"	"27/8/2018 10:47:33"					"Created Ticket"	"TIKET DI BUAT"	"U0007"
+"828"	"T201808270027"	"27/8/2018 10:58:57"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"829"	"T201808270027"	"27/8/2018 11:33:15"					"Up Progress To 100 %"	"Sudah Ok"	"U0011"
+"830"	"T201808150025"	"27/8/2018 18:19:55"					"Unsolved"	"Dear team AST, mohon dicari solusi lain untuk validasi SPR nominal 0 yang sekarang di taro di approval kredit , karena user tidak mau melakukan pembatalan KPR hanya karena kesalahan input dari divisi lain,
+Terima kasih"	"U0008"
+"831"	"T201808150025"	"27/8/2018 17:33:10"					"Diproses oleh vendor support"		"U0011"
+"832"	"T201808150025"	"27/8/2018 17:34:50"					"Up Progress To 100 %"	"pak heri,
+
+terlampir update untuk perbaikan case ini.
+validasi dibuat pada saat create pengajuan kredit.
+jika nilai spr nya 0, maka akan muncul pop up (message box).
+
+Thanks
+hotniel Silaen"	"U0011"
+"833"	"T201808280028"	"28/8/2018 16:16:59"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"834"	"T201808280028"	"28/8/2018 16:25:09"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"835"	"T201808280028"	"28/8/2018 16:28:41"					"Up Progress To 100 %"	"Bu Putri,
+
+Untuk case ini sebenarnya hanya perbaikan prosedure input nya.
+Ada validasi pada form ini, untuk standing charge jika booking date pada tab ownership entry nya kosong maka tidak bisa di tambah.
+Sedangkan untuk informasi entry pada tab ownership entry itu adalah informasi untuk tab yang ownership entry nya. Yang artinya tenant itu belum ada proses booking nya.
+
+Thanks
+hotniel silaen"	"U0011"
+"836"	"T201808310029"	"31/8/2018 15:12:47"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"837"	"T201809040030"	"4/9/2018 09:10:14"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"838"	"T201809040030"	"4/9/2018 11:09:47"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"839"	"T201809040030"	"4/9/2018 11:14:02"					"Up Progress To 100 %"	"Dear Pak Heri,
+
+Pak ini tidak ada nilai totalnya karena kolom rounding nya harus diisi, saya capturekan (terlampir)."	"U0014"
+"840"	"T201809060031"	"6/9/2018 09:46:32"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"841"	"T201809060031"	"6/9/2018 10:00:09"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"842"	"T201809060031"	"7/9/2018 09:24:29"					"Up Progress To 100 %"	"Terlampir untuk update rounding default menjadi 0."	"U0014"
+"843"	"T201809120032"	"12/9/2018 12:04:30"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"844"	"T201809120032"	"14/9/2018 08:51:55"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"845"	"T201808310029"	"14/9/2018 08:51:58"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"846"	"T201808270026"	"14/9/2018 08:53:08"					"Up Progress To 100 %"	"Dear Bu Putri,
+
+Untuk case ini sudah saya perbaiki langsung di server.
+Hal ini karena ada data yang double.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"847"	"T201809120032"	"14/9/2018 08:54:25"					"Up Progress To 0 %"	"Dear Bu Putri,
+
+Untuk hal ini akan kami cek terlebih dahulu.
+
+Thanks"	"U0011"
+"848"	"T201809140033"	"14/9/2018 18:43:22"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"849"	"T201809140034"	"14/9/2018 19:05:23"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"850"	"T201809140034"	"17/9/2018 09:14:04"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"851"	"T201809140034"	"17/9/2018 13:07:28"					"Up Progress To 100 %"	"Dear Pak Heri,
+
+Terlampir update untuk case di bawah ini.
+Proses nya, mohon agar nilai alokasi nya di refresh dengan cara mengalokasikan ulang nilai pada tab allocation nya.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"852"	"T201809140033"	"17/9/2018 13:08:37"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"853"	"T201809170035"	"17/9/2018 16:54:53"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"854"	"T201809170035"	"17/9/2018 16:57:53"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"855"	"T201809170035"	"17/9/2018 17:17:25"					"Up Progress To 0 %"	"Dear Pak Heri,
+
+Berikut penjelasan dari saya secara sistem.
+
+1. Sumber data AP Invoice berasal dari approval SPK Progress Invoice (jika Invoice nya Progress SPK), yang mana normal nya progress tersebut akan muncul invoice di form AP Invoice Entry. Namun hal ini dilakukan bypass secara sistem, sehingga ketika posting SPK Progress Invoice ini data tersebut otomatis terposting dari AP Invoice Entry nya dan langsung muncul di AP Payment nya ketika melakukan pembayaran atas creditor invoice tersebut.
+2. Jika Invoice tersebut dilakukan unpost (mungkin karena ada revisi) maka invoice tersebut akan kembali ke form AP Invoice Entry nya.
+3. Saya lampirkan track record nya untuk nomor invoice tersebut."	"U0014"
+"856"	"T201807110012"	"17/9/2018 18:23:10"					"Feedback User "		"U0009"
+"857"	"T201807110012"	"18/9/2018 08:43:59"					"Up Progress To 100 %"	"Sudah solve berdasarkan email dari pak ranggaung.
+Thanks"	"U0011"
+"858"	"T201809120032"	"18/9/2018 09:55:30"					"Up Progress To 100 %"	"Dear Putri,
+
+Terlampir perbaikan untuk case ini.
+Untuk hasil perbaikannya sudah di konfirmasi via Whatsapp.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"859"	"T201808310029"	"18/9/2018 10:23:38"					"Up Progress To 100 %"	"Pak Heri,
+
+Terlampir update untuk permasalahan ini.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"860"	"T201809170035"	"18/9/2018 16:48:24"					"Feedback User "	"Dear pak Yulianto, jadi invoice tersebut muncul karena proses unpost ya pak, ok terima kasih penjelasannya."	"U0008"
+"861"	"T201809170035"	"18/9/2018 15:51:58"					"Up Progress To 100 %"	"Dear Pak Heri,
+
+Betul pak, jika invoice nya diunpost akan kembali ke form AP Invoice Entry nya.
+Untuk case ini solved ya pak dari yang saya informasikan.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"862"	"T201809140033"	"18/9/2018 16:41:31"					"Up Progress To 100 %"	"Pak Heri,
+
+Terlampir update untuk case ini.
+mohon agar dilakukan revisi ulang untuk unit ini.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"863"	"T201808310029"	"18/9/2018 17:51:02"					"Unsolved"	"Dear pak Hotniel, Mohon check email pak hotniel, karena update untuk cancelation masih error, terima kasih"	"U0008"
+"864"	"T201808310029"	"19/9/2018 09:59:15"					"Diproses oleh vendor support"		"U0011"
+"865"	"T201809190036"	"19/9/2018 10:07:16"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"866"	"T201809190036"	"19/9/2018 10:44:42"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"867"	"T201809190037"	"19/9/2018 14:14:14"					"Created Ticket"	"TIKET DI BUAT"	"U0009"
+"868"	"T201809190037"	"19/9/2018 14:28:45"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"870"	"T201809140033"	"20/9/2018 10:44:51"					"Unsolved"	"Dear Pak Hotniel, mohon dibuatkan panduan untuk kasus refund OR ini, karena sy coba simulasi di lokal untuk revisi ulang, terjadi error, terima kasih"	"U0008"
+"871"	"T201809140033"	"21/9/2018 17:15:00"					"Diproses oleh vendor support"		"U0011"
+"872"	"T201809140033"	"21/9/2018 17:17:05"					"Up Progress To 100 %"	"Dear Pak heri,
+
+Terlampir update untuk case ini.
+Mohon agar melakukan proses revisi ulang.
+Seperti yang sudah di Test bersama di PC pak heri.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"873"	"T201809240038"	"24/9/2018 09:53:40"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"874"	"T201809240038"	"24/9/2018 10:39:19"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"875"	"T201809240038"	"24/9/2018 10:42:10"					"Up Progress To 100 %"	"Dear Bu Putri,
+
+Sudah saya perbaiki ya bu, silahkan bisa dicek kembali. saya lampirkan juga capture nya dan update nya.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"876"	"T201809260039"	"26/9/2018 14:26:08"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"877"	"T201809270040"	"27/9/2018 14:28:01"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"878"	"T201809280041"	"28/9/2018 09:06:58"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"879"	"T201809260039"	"28/9/2018 09:22:23"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"880"	"T201809280042"	"28/9/2018 10:13:58"					"Created Ticket"	"TIKET DI BUAT"	"U0009"
+"882"	"T201809280042"	"28/9/2018 11:33:52"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"883"	"T201809280041"	"28/9/2018 11:35:12"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"884"	"T201809270040"	"28/9/2018 11:35:25"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"885"	"T201809270040"	"28/9/2018 11:38:56"					"Up Progress To 100 %"	"Dear Pak Ranggaung,
+
+Saya sudah cek untuk masalah print kwitansi ini.
+Setelah saya coba via graphon, tidak ada masalah untuk proses print nya.
+Mohon di coba kembali.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"886"	"T201809280041"	"28/9/2018 11:41:25"					"Up Progress To 100 %"	"Dear Pak Heri,
+
+Setelah saya cek, ada perbedaan pph flag dari OR yang sekarang dengan OR yang sudah di proses.
+Terlampir capture OR berbeda pph flag.
+Catatan : Centang PPh Flag = 0 (di database)
+Tidak Centang = 1 (di database)
+
+Thanks
+Hotniel Silaen"	"U0011"
+"887"	"T201809280042"	"28/9/2018 11:42:14"					"Up Progress To 0 %"	"Dear Pak Ranggaung,
+
+Untuk hal ini akan saya cek terlebih dahulu pak.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"893"	"T201810010043"	"1/10/2018 09:29:32"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"894"	"T201810010044"	"1/10/2018 09:56:38"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"895"	"T201810010045"	"1/10/2018 10:00:32"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"896"	"T201810010044"	"1/10/2018 10:01:51"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"897"	"T201810010044"	"1/10/2018 10:02:18"					"Up Progress To 100 %"	"duplicate ticket"	"U0014"
+"898"	"T201810010045"	"1/10/2018 10:28:40"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"899"	"T201810010045"	"1/10/2018 10:30:30"					"Up Progress To 100 %"	"Dear Bu Putri,
+
+Setelah saya cek via graphon.
+detail pada tab allocation masih kosng.
+Mohon di cek kembali.
+Terlampir capture untuk cn no 0024.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"900"	"T201808310029"	"1/10/2018 10:31:53"					"Up Progress To 100 %"		"U0011"
+"901"	"T201810010043"	"1/10/2018 10:35:02"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"902"	"T201809280042"	"1/10/2018 11:05:16"					"Up Progress To 100 %"	"Dear Pak Ranggaung,
+
+Terlampir update untuk case ini.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"905"	"T201809190036"	"1/10/2018 13:36:13"					"Up Progress To 100 %"	"Dear Putri,
+
+Setelah saya cek laporan ini sudah sesuai.
+Nilai total outstanding nya sudah sama dengan detail invoice outstanding.
+
+Mohon di cek kembali.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"906"	"T201809190037"	"2/10/2018 09:12:18"					"Up Progress To 100 %"	"Dear Pak Ranggaung,
+
+Report ini fungsi awal nya adalah untuk proyeksi penerimaan.
+Sedangkan jika request untuk menambahkan payment KPR  akan mengubah fungsi report ini dari proyeksi menjadi realisasi penerimaan.
+Dan itu sudah berubah dari konsep awal pak.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"907"	"T201808090022"	"2/10/2018 11:53:20"					"Up Progress To 100 %"	"Dear Pak Heri,
+
+Terlampir update untuk case ini.
+Thanks
+Hotniel Silaen"	"U0011"
+"908"	"T201808090022"	"2/10/2018 16:38:16"					"Unsolved"	"Dear Pak Hotniel, mohon di upload ulang dengan file rar atau zip karena file tidak bisa di download, Terima kasih"	"U0008"
+"909"	"T201808090022"	"2/10/2018 15:39:30"					"Diproses oleh vendor support"		"U0011"
+"911"	"T201808090022"	"2/10/2018 15:40:59"					"Up Progress To 100 %"	"Terlampir update untuk case berikut.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"913"	"T201805280002"	"3/10/2018 11:13:18"					"Ticket dikembalikan ke posisi belum di setujui"		"U0016"
+"919"	"T201805280002"	"3/10/2018 13:42:24"					"Ticket tidak disetujui"		"U0016"
+"920"	"T201805280002"	"3/10/2018 13:42:29"					"Ticket dikembalikan ke posisi belum di setujui"		"U0016"
+"931"	"T201810040046"	"4/10/2018 16:03:01"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"932"	"T201808310029"	"4/10/2018 17:19:42"					"Unsolved"	"untuk update ini sy simulasi untuk unit J15/21 dengan db backup tgl 13 / 7/ 2018 masih error pak hotniel, mohon di check kembali"	"U0008"
+"933"	"T201810050047"	"5/10/2018 10:16:39"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"934"	"T201810050047"	"5/10/2018 11:23:32"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"935"	"T201810050047"	"5/10/2018 11:24:36"					"Up Progress To 100 %"	"Untuk case ini sudah solve sesuai dengan pembicaraan via WA.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"937"	"T201810040046"	"5/10/2018 13:51:33"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"938"	"T201808310029"	"5/10/2018 13:51:41"					"Diproses oleh vendor support"		"U0011"
+"939"	"T201809260039"	"8/10/2018 11:11:03"					"Up Progress To 100 %"	"Dear Pak Heri,
+
+Terlmapir update untuk penambahan tax code di closing SPK. Silahkan diupdatekan ke server.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"940"	"T201809190037"	"8/10/2018 12:27:22"					"Unsolved"	"Dear Hotniel, kalau untuk melihat report proyeksi penerimaan KPR ada dimana jika di report tersebut tidak ada, mohon info."	"U0009"
+"941"	"T201810080048"	"8/10/2018 15:48:12"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"942"	"T201810080048"	"8/10/2018 16:02:28"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"943"	"T201810080048"	"8/10/2018 16:06:17"					"Up Progress To 0 %"	"Dear Pak Heri,
+
+Mohon penjelasan untuk kasus ini,
+Untuk revisi ini apakah merevisi harga awal unit atau merevisi payment plan nya saja?
+Karena jika saya lihat dari payment plan yang sudah di buat dengan kode A8/0111 via graphon, total keseluruhannya adalah 1.789.359.000.
+Sedang kan harga awal untuk unit ini hanya sekitar 1.6 M.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"944"	"T201809260039"	"9/10/2018 09:39:32"					"Unsolved"	"Dear pak Yulianto, Mohon dibuatkan juga tax field ini di Closing SPK module SPK lama (Direct), karena kami masih menggunakan module SPK tsb, Terima kasih."	"U0008"
+"945"	"T201808310029"	"9/10/2018 09:55:28"					"Up Progress To 100 %"	"Dear Pak Heri,
+
+Setelah saya cek, penyebab sales cancel tidak sukses adalah karena data antara sales entry dengan sales cancel tidak sama.
+Saya sudah melakukan tes di lokal saya untuk unit yang sama.
+Proses nya adalah status posted nya saya balikin terlebih dahulu ke status belum posting, kemudian unit nya di tarik ulang.
+Dan hasilnya sukses cancel dan data di sales entry juga sudah hilang.
+terlampir capture antara graphon dengan lokal.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"946"	"T201809190037"	"9/10/2018 10:18:32"					"Diproses oleh vendor support"		"U0011"
+"947"	"T201809190037"	"9/10/2018 10:22:47"					"Up Progress To 0 %"	"Pak Ranggaung,,
+
+Untuk report Proyeksi penerimaan KPR saat ini belum ada di system.
+Dan jika ingin di buatkan akan di kenakan charge.
+Untuk format nya mohon di kirimkan atau menggunakan format yang terlampir.?
+
+Thanks
+Hotniel Silaen"	"U0011"
+"948"	"T201810040046"	"9/10/2018 13:18:28"					"Up Progress To 100 %"	"Pak Heri,
+
+Untuk case ini setelah saya cek tidak bisa posting karena ada 1 unit yang approve nya sudah ceklist namun tgl serah terima nya masih kosong.
+Unit A16 / 25, atas nama : TJOENG DEWI KARTIKA.
+Setelah approve nya saya uncek, proses posting dapat dilakukan.
+Mohon di cek kembali.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"949"	"T201808310029"	"9/10/2018 17:29:40"					"Unsolved"	"Dear pak Hotniel, mohon di kirim update sesuai pembicaraan di WA, terima kasih"	"U0008"
+"950"	"T201808310029"	"9/10/2018 16:30:04"					"Diproses oleh vendor support"		"U0011"
+"951"	"T201808310029"	"9/10/2018 16:30:43"					"Up Progress To 100 %"	"Pak Heri,
+
+Terlampir update untuk case ini.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"952"	"T201810080048"	"10/10/2018 11:57:58"					"Feedback User "	"sudah dijelaskan kasus ini via telp dengan pak hotniel, dan sedang proses perbaikan."	"U0008"
+"953"	"T201810110049"	"11/10/2018 09:15:09"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"954"	"T201810110049"	"11/10/2018 09:26:29"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"955"	"T201810110049"	"11/10/2018 09:29:01"					"Up Progress To 0 %"	"Pak, salah pilih nomor SPK induk nya tidak? karena bapak tidak mencantumkan nomor SPK saya tidak bisa cek. Kalau saya cek di SPK induk nomor JC/SM/18/07/00001 ada semua data nya."	"U0014"
+"956"	"T201810110049"	"11/10/2018 11:00:23"					"Feedback User "	"Untuk SPK induk JC/SM/18/07/00001 memang di form booking estimate ada pak, tapi waktu pemilihan activity di form SPK Entry, activity tsb tidak ada di display pak"	"U0008"
+"957"	"T201810110049"	"11/10/2018 10:25:17"					"Up Progress To 0 %"	"bisa diinfo nomor spk nya berapa yang mau dipakai, karena tidak ada capture nya pak."	"U0014"
+"958"	"T201810110049"	"11/10/2018 13:03:07"					"Feedback User "	"JC/SM/18/07/00001   utk Cluster Shinano"	"U0008"
+"959"	"T201810110049"	"12/10/2018 10:03:05"					"Up Progress To 100 %"	"Dear Pak Heri,
+
+Pak silahkan dicek kembali ya, sudah saya munculkan data nya.
+terlampir juga capture nya.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"960"	"T201809260039"	"12/10/2018 14:55:51"					"Diproses oleh vendor support"		"U0014"
+"961"	"T201809260039"	"12/10/2018 16:30:07"					"Up Progress To 100 %"	"Dear Pak Heri
+
+Termalpir update untuk SPK Close Direct, Silahkan bisa diupdate ke server.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"962"	"T201810160050"	"16/10/2018 13:43:57"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"963"	"T201810160051"	"16/10/2018 14:05:16"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"964"	"T201810160051"	"16/10/2018 14:20:35"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"965"	"T201810160051"	"16/10/2018 14:22:07"					"Up Progress To 100 %"	"Dear Pak Heri,
+
+Untuk hal ini saya sudah cek, kendalanya ada di spk close nya, yang mana view untuk cari spk nya ada yang kurang.
+Terlampir file update nya, silahkan diupdate ke server.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"966"	"T201810160052"	"16/10/2018 16:06:36"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"967"	"T201810160052"	"16/10/2018 16:08:17"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"968"	"T201810160052"	"16/10/2018 16:10:38"					"Up Progress To 100 %"	"Dear Pak Heri,
+
+terlampir untuk update kendala posting SPK close direct nya ya.
+Silahkan bisa diupdatekan ke server.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"969"	"T201810010043"	"17/10/2018 10:59:47"					"Up Progress To 100 %"	"Dear Putri,
+
+Terlampir update untuk case ini.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"970"	"T201807270018"	"18/10/2018 11:53:42"					"Unsolved"	"masih beberapa kali terjadi user locked, dan beberapa kalo saat user mau posting terjadi query time out."	"U0006"
+"971"	"T201810220053"	"22/10/2018 16:36:43"					"Created Ticket"	"TIKET DI BUAT"	"U0005"
+"972"	"T201810240054"	"24/10/2018 16:28:20"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"973"	"T201810220053"	"25/10/2018 10:59:25"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"974"	"T201810240054"	"25/10/2018 10:59:22"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"975"	"T201810240054"	"25/10/2018 10:59:36"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"976"	"T201810240054"	"25/10/2018 11:16:44"					"Up Progress To 100 %"	"Dear Pak Heri,
+
+Setelah saya cek. 
+Untuk proses upprove ini ada validasi data yang tidak boleh kosong, yaitu :
+No PPJB, Tgl PPJB dan Tanggal Janji ST PPJB.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"977"	"T201810220053"	"25/10/2018 11:26:35"					"Up Progress To 0 %"	"Pak Heri,
+
+Untuk hal ini akan kami cek terlebih dahulu.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"978"	"T201810240054"	"25/10/2018 12:44:06"					"Unsolved"	"Dear team AST, untuk approve PPJB tolong tanggal janji ST PPJB tdk dijadikan mandatory sbg validasi, karena user saat ini hanya mengisi tanggal ambil PPJB saja, terima kasih. "	"U0008"
+"979"	"T201810240054"	"25/10/2018 11:49:48"					"Diproses oleh vendor support"		"U0011"
+"980"	"T201807270018"	"25/10/2018 11:49:50"					"Diproses oleh vendor support"		"U0011"
+"981"	"T201810240054"	"25/10/2018 11:50:38"					"Up Progress To 100 %"	"Pak Heri,
+
+Terlampir update untuk case berikut.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"982"	"T201810300055"	"30/10/2018 17:40:41"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"983"	"T201810300055"	"31/10/2018 08:55:39"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"984"	"T201810300055"	"31/10/2018 08:58:47"					"Up Progress To 100 %"	"Dear Pak Heri,
+
+Untuk case ini, data yang di database adalah data yang ketinggalan.
+Dulu saya sudah pernah perbaiki data yang start date nya null, kemungkinan data yang muncul sekarang itu kelewat.
+Untuk sementara data nya sudah saya perbaiki.
+Untuk perbaikan secara system sudah pernah di update terkait case ini.
+Yaitu dengan penambahan Trigger.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"985"	"T201810300055"	"31/10/2018 11:06:41"					"Unsolved"	"Dear team AST, mohon bantuanny untuk di check kembali kasus ini, karena saat ini di live masih ada 60 item yang sdate dan edate nya null,  terima kasih."	"U0008"
+"986"	"T201810300055"	"31/10/2018 10:08:38"					"Diproses oleh vendor support"		"U0011"
+"987"	"T201810300055"	"31/10/2018 10:09:18"					"Up Progress To 0 %"	"Pak Heri,
+
+Untuk Hal ini sedang kami lakukan pengecekan kembali pak.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"988"	"T201810310056"	"31/10/2018 13:26:40"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"989"	"T201810310056"	"31/10/2018 13:36:54"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"990"	"T201810310056"	"31/10/2018 13:40:10"					"Up Progress To 100 %"	"Dear Bu Putri,
+
+Hal yang bu Putri sampaikan bukanlah error secara sistem, namun di progress yang ke 3 tanggal 9/6/2016 sudah mencapai 100% baik itu progress kerja dan juga progress invoice nya. Semua progress yang sudah 100%, ketika di buat progress berikutnya tidak akan ada data nya.
+
+Demikiain informasi dari saya. Terlampir juga capture progress ke 3 nya."	"U0014"
+"991"	"T201811050057"	"5/11/2018 17:21:53"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"992"	"T201811050057"	"6/11/2018 08:55:36"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"993"	"T201811050057"	"6/11/2018 08:56:39"					"Up Progress To 0 %"	"Dear Putri,
+
+Untuk hal ini akan kami cek terlebih dahulu.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"994"	"T201809190037"	"6/11/2018 14:25:47"					"Up Progress To 100 %"		"U0011"
+"995"	"T201810220053"	"6/11/2018 14:52:36"					"Up Progress To 100 %"	"Dear Pak Heri,
+
+Terlampir update untuk case ini.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"996"	"T201810080048"	"6/11/2018 14:55:07"					"Up Progress To 100 %"	"Dear Pak Heri,
+
+Untuk validasi ini sudah ada sebelumnya.
+berikut saya lampirkan sp validasi revisinya.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"997"	"T201810300055"	"6/11/2018 14:59:09"					"Up Progress To 100 %"	"Dear Pak Heri,
+
+Untuk hal ini sudah di pasang trigger pada transaksi yang melakukan proses update start_date dan end_date jadi null.
+Jika ada proses yang melakukan update tersebut maka transaksi akan otomatis di rollback, dan akan muncul notif error.
+Untuk data yang masih ada sekarang, tidak bisa di update lagi pak, di karenakan data pendukung dari billing nya juga tidak ada.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"998"	"T201811050057"	"6/11/2018 16:01:02"					"Up Progress To 100 %"	"Dear Putri,
+
+Terlampir update untuk case ini.
+Perbaikan sp posting transaksi.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"999"	"T201811050057"	"7/11/2018 10:51:16"					"Unsolved"	"mohon bantuannya untuk kasus ini yg modul fix asset juga terdapat nilai null pada source_codenya"	"U0006"
+"1000"	"T201811050057"	"7/11/2018 13:03:33"					"Diproses oleh vendor support"		"U0011"
+"1001"	"T201811050057"	"7/11/2018 13:28:30"					"Up Progress To 100 %"	"Dear Putri,
+
+Berikut update untuk source code null.
+update acc_gltrans set source_code = 'FA' where source_code is null and trx_type = 'FA'
+Terlampir update untuk proses perbaikan transaksi nya.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"1002"	"T201811090058"	"9/11/2018 10:01:50"					"Created Ticket"	"TIKET DI BUAT"	"U0018"
+"1003"	"T201811120059"	"12/11/2018 09:49:53"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"1004"	"T201811120059"	"12/11/2018 10:48:24"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"1005"	"T201811120059"	"12/11/2018 10:56:17"					"Up Progress To 100 %"	"Dear Bu Putri,
+
+Terlampir untuk update nya. Silahkan di run di server.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"1006"	"T201811120059"	"12/11/2018 15:20:22"					"Unsolved"	"dear ast, untuk form approve contract renewal masihada di modul AR. terimakasih"	"U0006"
+"1007"	"T201811120060"	"12/11/2018 14:26:15"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"1008"	"T201811120060"	"12/11/2018 16:25:05"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"1009"	"T201811120059"	"13/11/2018 09:01:19"					"Diproses oleh vendor support"		"U0014"
+"1010"	"T201811120059"	"13/11/2018 09:12:39"					"Up Progress To 100 %"	"Dear Bu Putri,
+
+Untuk hal ini sudah saya bantu update ke live nya, script dari saya mungkin termasuk begin rollback yang bu Putri jalankan sehingga tidak terupdate.
+
+Saya lampirkan capture di sistem live nya.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"1011"	"T201811120060"	"13/11/2018 11:03:24"					"Up Progress To 100 %"	"Dear Bu Putri,
+
+Bu untuk hal ini sudah kami bantu perbaiki ya, secara data nya karena ada kesalahan ketika input tipe transaksi yang mana seharusnya service diinputkan rental. Hal ini lebih ke arah master data (tipe transaksinya).
+
+Mohon bisa dicek dahulu untuk hal ini.
+
+Terima Kasih
+-Yulianto"	"U0011"
+"1012"	"T201811090058"	"13/11/2018 11:04:41"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"1013"	"T201811090058"	"13/11/2018 11:05:59"					"Up Progress To 100 %"	"Dear Pak Dikson,
+
+Untuk hal ini mohon cek dahulu untuk setting graphon nya yang tidak bisa print, karena dari sistem kami tidak ada validasi report terkait dengan graphon nya.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"1014"	"T201811140061"	"14/11/2018 16:25:59"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"1015"	"T201811140061"	"14/11/2018 16:30:58"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"1016"	"T201811140061"	"14/11/2018 17:13:03"					"Up Progress To 100 %"	"Dear Bu Putri,
+
+Mohon cek tanggal billing yang akan dibentuk, karena itu muncul informasi bahwa tanggal billing yang akan digenerate lebih kecil dari periode accounting nya.
+Saya cek data nya (terlampir) billing nya mulai bulan 7 2018, sedangkan periode accounting nya sudah di bulan 10 2018.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"1017"	"T201811090058"	"15/11/2018 09:32:22"					"Unsolved"	"tanggal 14 november masih error lagi."	"U0018"
+"1018"	"T201811140061"	"15/11/2018 10:02:41"					"Unsolved"	"untuk tanggal di maintanance entry sudah di ganti ke bulan berjalan. "	"U0006"
+"1019"	"T201811120060"	"15/11/2018 12:05:49"					"Unsolved"	"dear AST, saya sudah coba input data baru lagi. tapi di other charge tetap tidak muncul. contoh datanya = TM/18/10/00008, TM/18/10/00004. 
+mohon bantuannya, terima kasih"	"U0006"
+"1020"	"T201811140061"	"16/11/2018 09:14:23"					"Diproses oleh vendor support"		"U0014"
+"1021"	"T201811140061"	"16/11/2018 09:20:34"					"Up Progress To 0 %"	"Dear Bu Putri,
+
+Untuk hal ini seperti yang sebelumnya saya infokan, ada data billing yang lebih kecil dari accounting periode yang belum diposting. Saat sekarang mau posting itu sistem cek, billing yang belum diposting lebih kecil sama dengan periode yang diinput di form posting invoice itu ada tidak, jika ada yang lebih kecil dari periode accounting, sistem akan notif tidak bisa diposting. Saya lampirkan capturenya. dan yang yang jadi pertanyaan saya, periode invoice bulan 8 dan 9 kenapa tidak diposting sebelumnya? saya cek audit date nya terakhir di edit tanggal 14 november 2018.
+Tolong konfirmasi ke usernya, bahwa data yang akan jadi invoice periode bulan 8 dan 9 tidak bisa digenerate. Jika sudah confirm akan saya hapus data nya.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"1022"	"T201811120060"	"16/11/2018 15:24:29"					"Diproses oleh vendor support"		"U0011"
+"1023"	"T201811090058"	"21/11/2018 13:34:31"					"Up Progress To 100 %"	"Inject db"	
+"1024"	"T201811120060"	"21/11/2018 14:35:12"					"Up Progress To 0 %"	"Dear Bu Putri, 
+
+Untuk data tersebut masih dalam kondisi indikator S pada saat di database, makanya data tidak dapat keluar, untuk itu data2 tsb di atas sudah kami perbaiki dan ada update form agar kejadian di ataas tidak terulang lagi.
+
+Terimakasih.
+
+Noksmo"	"U0011"
+"1025"	"T201807270018"	"21/11/2018 15:35:49"					"Up Progress To 100 %"	"Dear Bu Putri,
+
+Untuk Ticket ini sudah pernah ada update dari Pak Hotniel.
+
+Terimakasih.
+
+Noksmo"	"U0011"
+"1026"	"T201811140061"	"21/11/2018 15:38:39"					"Up Progress To 0 %"	"Dear Bu Putri,
+
+Untuk case ini permasalahannya pada data, karena ada data pada billing yang belum di generate dan sudah lewat dari accounting periode.
+
+silahkan di cek kembali, karena kesalahannya bukan pada system tapi pada datanya.
+
+Mohon di respon kembali.
+
+Terimkasih.
+
+Noksmo"	"U0014"
+"1027"	"T201807270018"	"21/11/2018 16:42:44"					"Unsolved"	"dear team AST, untuk kasus ini saya unsolved lagi karena masih sering terjadi user locked.
+terimakasih"	"U0006"
+"1028"	"T201811140061"	"21/11/2018 16:44:11"					"Unsolved"	"dear team AST, untuk kasus ini sudah dijelaskan by phone. dan tolong di koordinasikan ke hotniel kembali.
+terimakasih."	"U0006"
+"1029"	"T201811140061"	"21/11/2018 15:57:53"					"Diproses oleh vendor support"		"U0014"
+"1030"	"T201807270018"	"21/11/2018 16:18:23"					"Diproses oleh vendor support"		"U0011"
+"1031"	"T201811140061"	"21/11/2018 16:31:13"					"Up Progress To 0 %"	"Dear Bu Putri,
+
+berdasarkan hasil diskusi yang dilakukan via telephone dengan pak hendri,
+case ini akan merubah konsep yang sudah ada. Sehingga untuk case ini akan di kenakan charge maindays.
+Konsep lama : tidak bisa generate invoice jika tgl billing lebih kecil dari period excisting
+konsep baru : bisa generate invoice dengan tgl billing lebih kecil dari period excisting.
+
+Untuk Perubahan konsep ini silahkan kirim konsep detailnya via email agar dapat di buatkan change request.
+
+Terimakasih.
+Hotniel."	"U0014"
+"1032"	"T201807270018"	"21/11/2018 16:36:28"					"Up Progress To 0 %"	"Dear Bu Putri, 
+
+untuk case ini, masih di lakukan proses upgrade system.
+
+Terimakasih."	"U0011"
+"1033"	"T201811230062"	"23/11/2018 09:17:42"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"1034"	"T201811230062"	"23/11/2018 10:18:51"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"1035"	"T201811230062"	"23/11/2018 10:30:11"					"Up Progress To 100 %"	"Dear bu Putri,
+
+Untuk hal ini sudah saya perbaiki. Saya lampirkan juga capturenya. dan hal ini sudah saya cek tidak dilakukan hardcode secara sistem, namun membaca tipe transaksi ketika input data di GL manual nya.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"1036"	"T201811260063"	"26/11/2018 16:29:57"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"1043"	"T201811260063"	"26/11/2018 16:44:37"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"1044"	"T201811260063"	"26/11/2018 17:07:59"					"Up Progress To 0 %"	"Dear Pak Heri Darmawan,
+
+Berikut Terlampir Update Form Untuk Validasi Pengalihan Hak.
+Mohon di Cek Kembali.
+
+Thx
+Noksmo."	"U0011"
+"1045"	"T201811260063"	"27/11/2018 09:46:08"					"Unsolved"	"Dear pak Noksmo, mohon di upload ulang dengan file zip atau rar, karena file tidak bisa di download, terima kasih"	"U0008"
+"1046"	"T201811260063"	"28/11/2018 09:44:59"					"Diproses oleh vendor support"		"U0011"
+"1047"	"T201811260063"	"28/11/2018 09:47:46"					"Up Progress To 0 %"	"Dear Pak Heri Darmawan,
+Sudah di reupload, dan sudah di jadikan RAR, sebelumnya sebenarnya adalah zip pak.
+Mohond Di cek Kembali
+
+Terimakasih.
+
+Noksmo"	"U0011"
+"1048"	"T201812040064"	"4/12/2018 14:05:36"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"1049"	"T201812040064"	"4/12/2018 14:41:57"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"1050"	"T201812040064"	"4/12/2018 14:47:31"					"Up Progress To 100 %"	"Dear Putri,
+
+Untuk case ini setelah saya cek datanya.
+Invoice yang akan di tagihkan itu tidak ada flag 'C' pada field cash_basis di table ar_ledger.
+Untuk data nya sudah saya perbaiki. 
+
+Thanks
+Hotniel Silaen"	"U0011"
+"1051"	"T201812110065"	"11/12/2018 10:38:45"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"1052"	"T201812110065"	"11/12/2018 14:19:56"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"1053"	"T201812110065"	"11/12/2018 14:21:31"					"Up Progress To 0 %"	"Dear Bu Putri 
+
+Berikut terlampir Update form, silahkan di update dan di cek kembli.
+
+Thx 
+Noksmo"	"U0011"
+"1054"	"T201812110065"	"11/12/2018 16:11:32"					"Unsolved"	"dear team AST, untuk update yg diberikan hanya yp update pada rate di standing charge. yg seharusnya nilai amountnya juga ikut terupdate.
+dan pada ownership entry kolom lot assign itu tidak ikut terupdate.
+Mohon bantuaanya, Terimakasih"	"U0006"
+"1055"	"T201812110065"	"11/12/2018 16:04:10"					"Diproses oleh vendor support"		"U0011"
+"1056"	"T201812110065"	"11/12/2018 16:06:03"					"Up Progress To 0 %"	"Dear Bu Putri, 
+
+Ada Update activeX dan form. Untuk perbaikan nilai trx dan rate di lot assign.
+
+Silahkan di update dan di cek kembali.
+Terimakasih."	"U0011"
+"1057"	"T201812140066"	"14/12/2018 14:17:14"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"1061"	"T201812140066"	"14/12/2018 14:58:22"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"1062"	"T201812140066"	"14/12/2018 15:34:17"					"Up Progress To 0 %"	"Dear Pak Heri,
+
+Untuk hal tersebut adalah warning pak, bahwa nilai yang bisa di masukan hanya sebesar nilai tersebut dan untuk OR di sales itu jika potong pph maka nilai yang di alokasikan di kurang dengan PPHnya seperti di gambar adalah hasil total tagihan di kurang dengan PPHnya. Untuk cara input juga silahkan centang paidnya agar ada requery untuk form OR tersebut agar nilainya tidak salah, dan jika di lihat dati total pembayaran memang ada kekurangan pembayaran sebesar 16 rupiah dan di Sales OR spec ada batasan cash difference sebesar 500 jadi tetap di anggap lunas. 
+
+Berikut penjelasan dan screen shootnya, karena dari project-projcet di modern yang berjalan form ini tidak bermasalah pak.
+
+Terimakasih.
+Noksmo."	"U0011"
+"1063"	"T201812140066"	"14/12/2018 17:20:10"					"Unsolved"	"Dear pak Noksmo, kalau dilihat dari tax scheme pph ny inclusive, itu kalau saya coba OR invoice nya di lokal server dia masih ada outstanding di invoice tsb senilai PPH, mohon infony."	"U0008"
+"1064"	"T201812140066"	"14/12/2018 16:22:57"					"Diproses oleh vendor support"		"U0011"
+"1065"	"T201812140066"	"14/12/2018 16:27:04"					"Up Progress To 0 %"	"Dear Pak Heri,
+
+Betul pak akan ada outstanding karena nanti bukti potong pph harus di masukkan di form input bukti potong, kalau pph itu tidak ada inclusive atau exclusive yang ada di PPN pak.
+Nilai invoice akan lunas jika bukti potong pph sudah di input di form bukti potong. seperti di gambar terlampir.
+
+Terimakasih,"	"U0011"
+"1066"	"T201812190067"	"19/12/2018 14:57:32"					"Created Ticket"	"TIKET DI BUAT"	"U0017"
+"1067"	"T201812190068"	"19/12/2018 16:26:45"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"1068"	"T201812190067"	"19/12/2018 18:10:32"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"1069"	"T201812190068"	"19/12/2018 18:11:21"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"1070"	"T201812190067"	"27/12/2018 15:11:39"					"Up Progress To 0 %"	"Dear Pak Kukuh,
+
+Terlampir update untuk bentukan jurnal debit note module AP.
+Silahkan diupdatekan ke server
+
+Terima Kasih
+-Yulianto"	"U0014"
+"1071"	"T201812190068"	"27/12/2018 15:23:14"					"Up Progress To 100 %"	"Dear Pak Heri,
+
+Terlampir update untuk nilai total OR yang berbeda ya. Silahkan diupdatekan ke server.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"1072"	"T201812280069"	"28/12/2018 14:15:13"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"1073"	"T201812280069"	"28/12/2018 14:26:21"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"1074"	"T201812280069"	"28/12/2018 14:27:54"					"Up Progress To 100 %"	"Dear Pak Heri,
+
+Dari hasil perbaikan kemarin, di lokal saya tidak ada kendala terkait print out debit note nya. Saya lampirkan capture dari saya.
+Mohon dicek kembali dari sisi update nya sudah semua atau belum dan yang bapak sampaikan di lokal atau di live.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"1075"	"T201901020070"	"2/1/2019 11:10:47"					"Created Ticket"	"TIKET DI BUAT"	"U0005"
+"1076"	"T201812280069"	"2/1/2019 15:05:51"					"Unsolved"	"dear pak Yulianto,
+
+terlampir codes tgl 28Desember 2018
+https://drive.google.com/file/d/1KQmQVK9XU9bbdtdlh5m_bmOTlaF8efoE/view?usp=sharing
+"	"U0008"
+"1077"	"T201901030071"	"3/1/2019 15:34:35"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"1078"	"T201901030071"	"4/1/2019 08:46:42"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"1079"	"T201812280069"	"4/1/2019 08:53:12"					"Diproses oleh vendor support"		"U0014"
+"1080"	"T201812280069"	"4/1/2019 08:54:27"					"Up Progress To 0 %"	"Dear Pak Heri,
+
+Terlampir ketika saya run source 28 desember di lokal saya, tidak ada kendala. Saya lampirkan screenshootnya.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"1081"	"T201901030071"	"4/1/2019 08:56:15"					"Up Progress To 0 %"	"Dear Pak Heri,
+
+Tolong diinfokan detail parameter yang diinputkan ketika print laporannya supaya pembanding nya sama ketika saya cek.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"1082"	"T201901030071"	"4/1/2019 10:33:09"					"Unsolved"	"Dear pak Yulianto, 
+@thnsprmulai = ' '
+@end_date='12/31/2018'
+
+Terima kasih"	"U0008"
+"1083"	"T201901030071"	"4/1/2019 10:26:40"					"Diproses oleh vendor support"		"U0014"
+"1084"	"T201901030071"	"4/1/2019 10:30:06"					"Up Progress To 0 %"	"Dear Pak Heri,
+
+Saya cek memang per 31 Des 18 tidak ada data yang masuk aging 61-90. Silahkan bapak coba masukkan tanggal 1 Jan 19, secara data akan ada semua karena baru masuk aging nya ada yang di periode 61-90 days.
+
+Silahkan dicek kembali pak.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"1085"	"T201901020070"	"4/1/2019 10:49:27"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"1086"	"T201901020070"	"4/1/2019 10:50:00"					"Up Progress To 0 %"	"Tolong infokan customer nya siapa, saya cek di lokal dengan database terakhir tidak ada."	"U0014"
+"1087"	"T201901080072"	"8/1/2019 13:11:19"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"1088"	"T201901080072"	"8/1/2019 13:18:05"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"1089"	"T201901080072"	"8/1/2019 13:18:52"					"Up Progress To 0 %"	"Dear pak Heri,
+
+File report not found. Mohon dicek kembali attachment nya.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"1090"	"T201901080072"	"8/1/2019 14:28:51"					"Unsolved"	"Maaf Pak Yulianto, untuk file di kirim lewat email ya, soal ny format attachment tdk mendukung utk di upload di web ticketing"	"U0008"
+"1091"	"T201901080072"	"8/1/2019 13:29:10"					"Diproses oleh vendor support"		"U0014"
+"1092"	"T201901080073"	"8/1/2019 17:38:02"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"1093"	"T201901080073"	"9/1/2019 09:20:13"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"1094"	"T201901080073"	"9/1/2019 09:21:28"					"Up Progress To 0 %"	"Dear Pak Heri,
+
+Untuk report nya saya test di lokal saya hanya <=2 second saja pak untuk load report nya.
+Akan saya cek ke server dahulu apakah ada kendala juga dengan server yang menyebebkan kendala tersebut.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"1095"	"T201901080072"	"9/1/2019 17:05:06"					"Up Progress To 100 %"	"Dear Pak Heri,
+
+Terlampir untuk update nya, silahkan diupdate ke server.
+Sesuai informasi dari bapak khusus di JC saja button print (1,2,3) di tab print kwitansi OR Auto dijadikan print dengan report yang sama di attachment ticketing ini.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"1096"	"T201901020070"	"10/1/2019 15:03:57"					"Unsolved"	"unit nya QG1 / 036
+nama nya = ""PERUM LEMBAGA PENYELENGGARA PELAYANAN NAVIGASI PENERBANGAN "", kurang kata ""INDONESIA"""	"U0005"
+"1097"	"T201901020070"	"10/1/2019 14:18:11"					"Diproses oleh vendor support"		"U0014"
+"1098"	"T201901100074"	"10/1/2019 14:42:38"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"1099"	"T201901100074"	"10/1/2019 16:47:41"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"1100"	"T201901110075"	"11/1/2019 15:32:26"					"Created Ticket"	"TIKET DI BUAT"	"U0005"
+"1101"	"T201901100074"	"14/1/2019 09:30:10"					"Up Progress To 100 %"	"Dear Putri,
+
+Terlampir untuk update filter entity dan project module LA form Sertifikat Induk.
+SIlahkan diupdatekan ke server.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"1108"	"T201901160077"	"16/1/2019 13:13:56"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"1109"	"T201901110075"	"16/1/2019 13:17:27"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"1114"	"T201901160077"	"16/1/2019 13:50:47"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"1118"	"T201901160077"	"16/1/2019 15:06:46"					"Up Progress To 100 %"	"Dear bu Putri,
+
+Setelah kami cek untuk request filter desa tidak dapat dilakukan, karena untuk desa hanya ada di SPH, sedangkan header yang dari sertifikat induk tidak link dengan SPH. Alternatif lain nya jika SOP dan inputan data disana hanya mengacu 1 nomor sertifikat induk hanya untuk 1 desa, masih bisa kami lakukan. Namun jika yang terjadi ada lebih dari 1 desa dalam 1 sertifikat induk tidak bisa dilakukan filter.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"1119"	"T201901160079"	"16/1/2019 15:36:41"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"1127"	"T201901160079"	"17/1/2019 09:27:05"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"1128"	"T201901160079"	"17/1/2019 16:47:55"					"Up Progress To 0 %"	"Dear Pak Heri,
+
+Untuk hal ini saya cek kenapa muncul inv tanggal 4/4/2018 karena secara data nya yang digunakan adalah nomor yang sudah ada di form SPK Close. Seharusnya jika memang closing nya harusnya diperiode yang lain, dibuatkan data baru pak, jangan menggunakan data lama nya.
+Saya lampirkan capture nya.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"1129"	"T201901180080"	"18/1/2019 11:58:46"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"1130"	"T201901180080"	"18/1/2019 14:13:33"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"1131"	"T201901180080"	"18/1/2019 14:14:45"					"Up Progress To 0 %"	"Dear Putri,
+
+mohon dikirimkan template file upload dan download nya dari bank CIMB.
+file upload berupa csv dan downloadnya bisa berupa file txt.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"1133"	"T201901220081"	"22/1/2019 09:47:00"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"1134"	"T201901220076"	"22/1/2019 10:15:39"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"1137"	"T201901220082"	"23/1/2019 14:02:46"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"1138"	"T201901220081"	"23/1/2019 14:30:14"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"1139"	"T201901220081"	"23/1/2019 14:31:46"					"Up Progress To 0 %"	"Dear Pak Heri,
+
+Ini di source yang mana pak, dengan source terakhir yang ada di saya per tanggal 10 Januari 19 tidak ada masalah.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"1140"	"T201901120076"	"23/1/2019 14:45:53"					"Up Progress To 100 %"	"Dear Pak Heri,
+
+Terlampir untuk file update nya. SIlahkan bisa diupdate kan ke server.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"1141"	"T201901160079"	"25/1/2019 09:36:10"					"Up Progress To 100 %"		"U0014"
+"1142"	"T201901220081"	"25/1/2019 09:36:23"					"Up Progress To 100 %"		"U0014"
+"1143"	"T201901160078"	"25/1/2019 16:11:00"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"1145"	"T201901300082"	"30/1/2019 09:17:15"					"Created Ticket"	"TIKET DI BUAT"	"U0005"
+"1146"	"T201901020070"	"30/1/2019 17:17:56"					"Up Progress To 100 %"	"Terlampir update untuk penambahan panjang kolom nama.
+
+Note : Tolong update dahulu sebelum update yang Virtual Account."	"U0014"
+"1147"	"T201901160077"	"30/1/2019 17:18:25"					"Up Progress To 100 %"		"U0014"
+"1148"	"T201901180080"	"30/1/2019 17:22:05"					"Up Progress To 100 %"	"Terlampir update untuk VA nya, silahkan diupdatekan ke server.
+
+Note Mohon diperhatikan :
+1. Update VA ini setelah update untuk request penambahan panjang kolom nama / koordinasi dengan bu Hanny yang request penambahan.
+2. Debtor VA untuk yang sudah dibuat dengan kode bank CIMB harus diubah ke CIM.
+3. File download dari bank, untuk header yang berwarna abu-abu dan beruliskan VIRTUAL ACCOUNT mohon dihapus, jika tidak sistem akan memberikan notif error karena tidak dikenali. Yang dibaca sistem hanya header kolom dan record data nya saja.
+
+Terima Kasih"	"U0014"
+"1149"	"T201901300083"	"30/1/2019 18:13:13"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"1151"	"T201902010084"	"1/2/2019 16:52:15"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"1152"	"T201902070085"	"7/2/2019 14:24:12"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"1154"	"T201901160078"	"20/2/2019 11:40:06"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"1155"	"T201901300082"	"20/2/2019 11:40:11"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"1160"	"T201902210086"	"21/2/2019 11:10:48"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"1161"	"T201902210086"	"22/2/2019 13:46:13"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"1162"	"T201902210086"	"22/2/2019 13:50:40"					"Up Progress To 0 %"	"Pak Heri,
+
+Untuk case ini setelah saya cek settingan master tax nya, sepertinya ada settingan yang belum lengkap pak.
+Cek Lampiran.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"1163"	"T201902260087"	"26/2/2019 14:16:08"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"1164"	"T201903040088"	"4/3/2019 14:32:57"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"1165"	"T201902070085"	"5/3/2019 16:49:14"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"1166"	"T201902070085"	"5/3/2019 16:50:42"					"Up Progress To 100 %"	"Dear Putri,
+
+Mohon untuk bisa menyertakan detail dari mana di print nya. Dan saya infokan plugin irfan view bukan dan tidak ada kaitannya dengan sistem AST.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"1167"	"T201902210086"	"6/3/2019 11:05:28"					"Up Progress To 100 %"	"Sudah bisa di proses."	"U0011"
+"1168"	"T201901300082"	"6/3/2019 11:30:16"					"Up Progress To 100 %"	"No terlampir sudah tidak di temukan di system."	"U0011"
+"1169"	"T201903040088"	"6/3/2019 15:17:22"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"1170"	"T201903040088"	"6/3/2019 15:21:07"					"Up Progress To 0 %"	"Dear Pak heri, maksudnya apa ya pak?? sudah di serah terima, mohon di jelaskan prosesnya karena jika di cek danyanya masih ada di ownership untuk database yang di upload ke kami.
+
+dan jika ingin capture program yang error mohon tampilkan juga semuanya tidak apa2 pak karena kami butuh untuk project, entity dan fom mana jika memang error untuk memudahkan pencarian kasus tidak tebak-tebak entity, project dan formnya.
+
+Thx.
+Noksmo"	"U0011"
+"1171"	"T201902260087"	"6/3/2019 15:54:31"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"1172"	"T201902260087"	"6/3/2019 16:02:49"					"Up Progress To 100 %"	"Dear Pak Heri,
+
+Silahkan diupdate dengan script berikut,
+
+ 1. delete xd_retensi_ledger where spk_no='MS/CT/18/08/00005'
+ 2. INSERT INTO [xd_retensi_ledger_md] ([entity_cd],[project_no],[spk_no],[tot_amt],[alloc_amt],[bal_amt])
+ VALUES('MSM','MS','MS/CT/18/08/00005',5.00,0.00,5.00)
+
+Terima Kasih
+-Yulianto"	"U0014"
+"1173"	"T201902010084"	"6/3/2019 16:16:54"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"1174"	"T201902070085"	"6/3/2019 17:02:31"					"Up Progress To 100 %"	"Dear Putri,
+
+Untuk hal ini saya infokan;
+1. Error tersebut bukan karena kendala di sistem AST.
+2. Set default untuk open file PDF nya ubah dari yang saat ini irfan view ke PDF app yang lain (adobe reader).
+
+Kami sudah cek dan memang kendalanya ada di PC user yang membuka file nya default ke irfan view. Di kami default ke adobe atau nitro tidak ada kendala.
+
+Demikiain info dari saya.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"1175"	"T201901300083"	"6/3/2019 17:02:47"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"1176"	"T201903040088"	"6/3/2019 18:15:10"					"Feedback User "	"Dear Pak Noksmo, sory, saat ini saya pakai AST utk entity MDL project JGC, bukan Kota Modern, untuk unit C2/6 A.n. Hioe Jo Ri sudah serah terima pada tgl  26/02/2019, debtor sudah terbentuk, tapi kenapa pada saat mau pembuatan billing, debtor tsb tidak ada di form ownership ( tidak ada di pm_tenancy)."	"U0008"
+"1177"	"T201902010084"	"6/3/2019 17:17:05"					"Up Progress To 0 %"	"Dear Putri, berikut terlampir update untuk invoice manual. U
+ntuk saat ini nilai invoice sudah di tambah dengan pajak bukan hanya base amount, karna field invoice di detil awalnya memang berisi base amount, jadi sekarang trx amount= invoice (termasuk pajak)
+
+Thx."	"U0011"
+"1178"	"T201903040088"	"8/3/2019 11:32:41"					"Up Progress To 0 %"	"Dear Pak Heri, untuk debtor c2/6 di entitas MDL itu dari database terakhir yang kami terima, tidak muncul di form serah terima unit karena ada tagihan yang belum di luna si di ar_ledger, dan tidak bisa di serah terimakan dan tidak bisa berlanjut ke proses ownership. Lalu saya coba ke unit 'G2 / 003' yang sudah tidak ada tagihan lagi, saya coba approve serah terima dan berhasil terbentuk di form ownership (pm_tenancy) dengan owner no 'G2 / 003/O' ,dari QC yang saya lakukan tidak ada masalah di form ini.
+
+Thx"	"U0011"
+"1179"	"T201901160078"	"8/3/2019 11:38:49"					"Up Progress To 0 %"	"Dear Pak heri, maksudnya apa ya pak??  capture program yang error mohon tampilkan juga semuanya tidak apa2 pak karena kami butuh untuk project, entity dan fom mana jika memang error untuk memudahkan pencarian kasus tidak tebak-tebak entity, project dan formnya. 
+
+saya mohon kolom deskripsi bugs dapat di perjelas.
+
+Thx.
+Noksmo"	"U0011"
+"1180"	"T201903040088"	"8/3/2019 16:23:15"					"Feedback User "	"Dear Pak Noksmo,
+itu database perkapan ya pak noksmo? unit C2/6 sudah input PPJB serta dilunasi pada bulan oktober dan sudah di serah terima pada bulan februari, dalam hal ini debtor ownership C2/6/O sudah terbentuk yang artinya sudah melalui proses serah terima di system , tapi pada saat mau membuat schedule billing di ownership, nama tersebut tidak ada. 
+Mohon informasi nya.
+Terima kasih"	"U0008"
+"1181"	"T201903040088"	"11/3/2019 09:08:28"					"Up Progress To 0 %"	"Sesuai dengan database yan di kirimkan dari pihak papak pak, terakhit tidak ada yang lain.
+Thx"	"U0011"
+"1182"	"T201903040088"	"12/3/2019 12:21:36"					"Feedback User "	"jadi bagaimana solusi nya pak Noksmo, unit masih belum muncul di form ownership, mau di serah terima kembali jg tidak muncul di form serah terima."	"U0008"
+"1183"	"T201901160078"	"12/3/2019 12:22:50"					"Feedback User "	"ini sudah solved , masalah di view"	"U0008"
+"1184"	"T201903040088"	"12/3/2019 13:33:51"					"Up Progress To 0 %"	"BERIKUT TERLAMPIR DATA MBAL_AMT PADA NO :JC/BM/18/10/00221
+ada kemungkinan data ini blm di alokasikan semua, mengakibatkan data tidak bsa di serahterimakan.
+
+silahkan di berbaiki terlebih dahulu"	"U0011"
+"1185"	"T201903040088"	"12/3/2019 13:45:50"					"Up Progress To 0 %"	"Berikut jg terlampir update form untuk filter entity project.
+thx"	"U0011"
+"1186"	"T201901160078"	"12/3/2019 13:46:50"					"Up Progress To 100 %"		"U0011"
+"1187"	"T201903040088"	"12/3/2019 15:10:18"					"Feedback User "	"Oke pak Noksmo, untuk update view ny tolong di upload ulang dengan format zip atau rar, karena web tidak support 7zip, terima kasih"	"U0008"
+"1188"	"T201903040088"	"12/3/2019 14:48:27"					"Up Progress To 0 %"	"terlampir update filter"	"U0011"
+"1189"	"T201903130089"	"13/3/2019 08:30:23"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"1190"	"T201903190090"	"19/3/2019 17:20:01"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"1191"	"T201903200091"	"20/3/2019 14:59:22"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"1192"	"T201903210092"	"21/3/2019 12:34:42"					"Created Ticket"	"TIKET DI BUAT"	"U0002"
+"1193"	"T201903210092"	"21/3/2019 12:43:24"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0016"
+"1194"	"T201902010084"	"21/3/2019 14:03:26"					"Feedback User "	"tolong di completed. terimakasih."	"U0006"
+"1195"	"T201903200091"	"21/3/2019 13:36:37"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"1196"	"T201903200091"	"21/3/2019 13:38:21"					"Up Progress To 0 %"	"Dear Bu Putri,
+
+Maksud dari status bebas ini apa ya? apakah tanpa status, dan data sudah di save kolomnya otomatis terkunci atau bagaimana?
+Mohon informasi detailnya.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"1197"	"T201902010084"	"21/3/2019 13:44:14"					"Up Progress To 100 %"		"U0011"
+"1198"	"T201903190090"	"21/3/2019 13:46:58"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"1199"	"T201903190090"	"21/3/2019 13:50:10"					"Up Progress To 0 %"	"Dear Bu Putri,
+
+Penambahan panjang kolom ini di sisi mana nya, karena kolom informasi SPH ada banyak detail nya. Tolong dicapture dengan jelas form yang dimana nya.
+
+Terima Kasih
+-Yulianto"	"U0011"
+"1200"	"T201903130089"	"21/3/2019 13:58:31"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"1201"	"T201903130089"	"21/3/2019 13:59:18"					"Up Progress To 0 %"	"Dear Pak Heri,
+
+Tolong bisa dikirimkan database nya pak, dan ini data di lokal bapak atau di live?
+
+Terima Kasih
+-Yulianto"	"U0011"
+"1202"	"T201903210093"	"21/3/2019 15:01:23"					"Created Ticket"	"TIKET DI BUAT"	"U0005"
+"1203"	"T201903190090"	"21/3/2019 18:33:38"					"Feedback User "	"untuk header no.SPH kolomnya di perpanjang. berikut saya lampirkan gambarnya."	"U0006"
+"1204"	"T201903200091"	"21/3/2019 18:37:42"					"Feedback User "	"untuk status pembebasan, saat berubah menjadi bebas luas tanah dan harga tanah /m2 untuk dikunci. karena saat status sudah bebas maka nilai harga tanah dan luas tanah tidak bisa dirubah lagi."	"U0006"
+"1205"	"T201903130089"	"21/3/2019 18:44:17"					"Feedback User "	"Dear Pak Yulianto, ini di live pak, terlampir url untuk download db 
+
+https://drive.google.com/file/d/1QfYiNz2OQm5MNRLUWexMh2XjIjSilf-U/view?usp=sharing
+
+Terima kasih."	"U0008"
+"1206"	"T201901110075"	"1/4/2019 10:34:38"					"Up Progress To 100 %"	"Dear Hanny,
+
+Berikut update untuk case ini.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"1207"	"T201903210093"	"1/4/2019 11:06:29"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"1208"	"T201903210093"	"1/4/2019 11:07:20"					"Up Progress To 0 %"	"Dear Hanny,
+
+Bisa minta database terbaru nya?
+Soalnya case ini lebih karena datanya.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"1209"	"T201904040094"	"4/4/2019 11:55:20"					"Created Ticket"	"TIKET DI BUAT"	"U0005"
+"1210"	"T201904040094"	"4/4/2019 14:01:43"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"1211"	"T201904040094"	"4/4/2019 14:02:19"					"Up Progress To 0 %"	"Dear Hanny,
+
+Terlampir update untuk case ini.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"1212"	"T201903210092"	"4/4/2019 14:27:18"					"Up Progress To 0 %"	"tes"	"U0016"
+"1213"	"T201903210092"	"5/4/2019 10:22:45"	"12/4/2019"				"Up Progress To 0 %"	"tes1"	"U0016"
+"1214"	"T201904080095"	"8/4/2019 15:28:08"					"Created Ticket"	"TIKET DI BUAT"	"U0005"
+"1215"	"T201904240096"	"24/4/2019 17:23:55"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"1216"	"T201904240097"	"24/4/2019 17:27:09"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"1219"	"T201904250098"	"25/4/2019 16:40:09"					"Created Ticket"	"TIKET DI BUAT"	"U0005"
+"1220"	"T201903130089"	"26/4/2019 12:36:34"	"26/4/2019"	"0"	"0"	"0"	"Up Progress To 100 %"	"Dear Pak Heri,
+
+Terlampir untuk update form Retensi SPK. Silahkan diupdate ke server.
+Untuk case yang sudah terjadi bisa diubah langsung di invoice entry nya pak sesuai dengan yang sudah kita diskusikan via whatsapp hari ini jumat 26 april 2019.
+
+Terima Kasih
+-Yulianto"	"U0011"
+"1221"	"T201903190090"	"26/4/2019 12:46:48"	"26/4/2019"	"0"	"0"	"0"	"Up Progress To 0 %"	"Dear Bu Putri,
+
+Terlampir file update untuk perpanjang kolom SPH Entry nya.
+Silahkan dicek kembali.
+
+Terima Kasih
+-Yulianto"	"U0011"
+"1222"	"T201903190090"	"26/4/2019 15:25:54"					"Feedback User "	"Dear Team AST, untuk update case ini mohon ditambahkan panjang karakter no SPH menjadi 50.
+Terima kasih."	"U0006"
+"1223"	"T201903190090"	"26/4/2019 16:34:24"	"26/4/2019"	"0"	"0"	"0"	"Up Progress To 100 %"	"Dear Bu Putri,
+
+Terlampir update untuk penambahan panjang kolom di DB dan sistem.
+Mohon untuk kedepan deskripsi di ticketing nya bisa lebih diperjelas, kolom secara tampilan atau secara database nya juga.
+
+Terima Kasih
+-Yulianto"	"U0011"
+"1224"	"T201904240096"	"26/4/2019 16:36:50"					"Ticket tidak disetujui"		"U0011"
+"1225"	"T201904240096"	"26/4/2019 16:37:13"					"Ticket dikembalikan ke posisi belum di setujui"		"U0011"
+"1226"	"T201904240096"	"26/4/2019 16:37:18"					"Ticket tidak disetujui"		"U0011"
+"1227"	"T201904290099"	"29/4/2019 11:22:41"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"1228"	"T201904290100"	"29/4/2019 13:41:24"					"Created Ticket"	"TIKET DI BUAT"	"U0005"
+"1229"	"T201904290101"	"29/4/2019 16:33:56"					"Created Ticket"	"TIKET DI BUAT"	"U0005"
+"1230"	"T201904080095"	"30/4/2019 10:53:20"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"1231"	"T201904080095"	"30/4/2019 10:59:37"	"30/4/2019"	"0"	"0"	"0"	"Up Progress To 0 %"	"Dear Bu Hanny,
+
+Untuk counter doc no selama tidak ada yang melakukan perubahan data atau tembak no doc tidak akan bisa mundur sendiri. Mohon untuk hal ini dicegah dengan hak akses untuk form tersebut dibatasi hanya user tertentu yang diberikan akses.
+
+Terima Kasih
+Yulianto"	"U0014"
+"1232"	"T201904240096"	"30/4/2019 11:00:02"					"Ticket dikembalikan ke posisi belum di setujui"		"U0014"
+"1233"	"T201904240096"	"30/4/2019 11:01:09"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"1234"	"T201904290099"	"30/4/2019 11:02:48"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"1235"	"T201901300083"	"30/4/2019 16:28:46"	"30/4/2019"	"0"	"0"	"0"	"Up Progress To 100 %"	"Dear Pak Heri,
+
+Terlampir untuk update nya, silahkan bisa dicek kembali.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"1236"	"T201905020102"	"2/5/2019 14:08:09"					"Created Ticket"	"TIKET DI BUAT"	"U0005"
+"1238"	"T201905030103"	"3/5/2019 15:31:47"					"Created Ticket"	"TIKET DI BUAT"	"U0002"
+"1239"	"T201905060104"	"6/5/2019 13:21:16"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"1240"	"T201905060104"	"6/5/2019 13:37:47"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"1241"	"T201905030103"	"6/5/2019 13:37:52"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"1242"	"T201905030103"	"6/5/2019 13:38:09"	"6/5/2019"	"0"	"0"	"0"	"Up Progress To 100 %"	"OK"	"U0014"
+"1243"	"T201901110075"	"6/5/2019 16:14:18"	"6/5/2019"	"0"	"0"	"0"	"Up Progress To 100 %"		"U0011"
+"1244"	"T201905060104"	"7/5/2019 11:33:00"	"7/5/2019"	"0"	"0"	"0"	"Up Progress To 100 %"	"Dear Putri,
+
+Mohon diupdate untuk form SPK Progress Direct dengan update berikut. Lalu untuk SPK Progress PS/CT/17/08/00002 diunpost dahulu lalu proggres yang tanggal 18/04/2019 dihapus, add ulang supaya refresh utnuk activity nya.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"1245"	"T201905070105"	"7/5/2019 15:05:49"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"1246"	"T201905130106"	"13/5/2019 13:19:15"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"1247"	"T201904250098"	"15/5/2019 09:29:34"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"1248"	"T201904290100"	"15/5/2019 09:29:40"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"1249"	"T201904250098"	"15/5/2019 09:30:38"	"15/5/2019"	"0"	"0"	"0"	"Up Progress To 100 %"	"Untuk case ini sudah dijelaskan via Whatsapp.
+Hal ini karena interest penalty nya belum di generate.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"1250"	"T201904290100"	"15/5/2019 09:31:16"	"15/5/2019"	"0"	"0"	"0"	"Up Progress To 100 %"	"Untuk case ini sudah di kirim update nya via email.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"1251"	"T201905130106"	"15/5/2019 09:31:45"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0011"
+"1252"	"T201905130106"	"15/5/2019 09:32:33"	"15/5/2019"	"0"	"0"	"0"	"Up Progress To 0 %"	"Dear Heri,
+
+Untuk case ini, mohon di lampirkan kembali file gambar nya.
+Karena file yang sekarang tidak bisa di buka.
+
+Thanks
+Hotniel Silaen"	"U0011"
+"1253"	"T201905130106"	"16/5/2019 08:39:14"					"Feedback User "		"U0008"
+"1254"	"T201903210092"	"16/5/2019 08:50:01"					"Feedback User "	"No komen"	"U0002"
+"1255"	"T201903210092"	"16/5/2019 08:53:45"	"16/6/2019"				"Up Progress To 0 %"	"tes"	"U0016"
+"1256"	"T201903210092"	"17/5/2019 15:35:30"	"17/5/2019"				"Up Progress To 0 %"	"tes"	"U0016"
+"1257"	"T201903210092"	"17/5/2019 16:08:39"	"17/5/2019"				"Up Progress To 0 %"	"test"	"U0016"
+"1258"	"T201903210092"	"17/5/2019 16:15:24"	"17/5/2019"				"Up Progress To 0 %"	"test"	"U0016"
+"1259"	"T201903210092"	"17/5/2019 16:18:53"	"17/5/2019"				"Up Progress To 0 %"	"test"	"U0016"
+"1260"	"T201903210092"	"23/5/2019 12:13:31"	"23/5/2019"				"Up Progress To 0 %"	"tes gambar"	"U0016"
+"1261"	"T201905270107"	"27/5/2019 14:51:50"					"Created Ticket"	"TIKET DI BUAT"	"U0008"
+"1262"	"T201903210092"	"29/5/2019 09:40:21"	"29/5/2019"				"Up Progress To 0 %"		"U0016"
+"1263"	"T201903210092"	"29/5/2019 09:41:22"	"29/5/2019"				"Up Progress To 0 %"	"ok"	"U0016"
+"1264"	"T201903210092"	"29/5/2019 09:42:14"					"Feedback User "	"Coba lagi"	"U0002"
+"1266"	"T201905070105"	"10/6/2019 10:07:41"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"1267"	"T201905070105"	"10/6/2019 10:12:20"	"10/6/2019"	"0"	"0"	"0"	"Up Progress To 100 %"	"Dear Pak Heri,
+
+Berikut terlampir update untuk menghindari case perbedaan antara nilai close SPK terhadap sisa retensi, yang mana setelah dicek lebih lanjut hal ini bermula dari adanya SPK yang sudah ada addendum nya namun SPK tersebut masih bisa diubah nilai / unpost. Sehingga nilai yang ada di addendum tidak sama dengan nilai di SPK nya (secara nilai per activity nya).
+Dengan ada nya update ini dikunci jika memang sudah ada addendum, maka SPK tidak dapat diubah / unpost. Harus melalui hapus addendum dan dibuat ulang addendum nya supaya nilainya sama dengan SPK yang baru.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"1268"	"T201906190108"	"19/6/2019 09:59:51"					"Created Ticket"	"TIKET DI BUAT"	"U0006"
+"1269"	"T201905030103"	"20/6/2019 09:45:15"	"20/6/2019"	"0"	"0"	"0"	"Up Progress To 100 %"	"ok"	"U0014"
+"1270"	"T201906190108"	"20/6/2019 09:45:49"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"1271"	"T201906190108"	"20/6/2019 09:45:49"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"1272"	"T201906190108"	"20/6/2019 09:46:48"	"20/6/2019"	"0"	"0"	"0"	"Up Progress To 0 %"	"Dear Bu Putri,
+
+Tolong kirimkan db dan source terakhir nya via email ke support ya.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"1273"	"T201905030103"	"20/6/2019 09:47:16"	"20/6/2019"	"0"	"0"	"0"	"Up Progress To 100 %"		"U0014"
+"1274"	"T201904290099"	"20/6/2019 11:38:27"	"20/6/2019"	"0"	"0"	"0"	"Up Progress To 100 %"	"Dear Bu Putri,
+
+Untuk hal ini saya rasa sudah diupdate dengan menggunakan button approval seperti yang terakhir dimeetingkan dengan Pak Hotniel dan Pak Wawan. Dan hal ini sudah ada update di form terlampir capture nya.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"1275"	"T201904290101"	"20/6/2019 11:45:44"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"1276"	"T201904290101"	"20/6/2019 11:47:16"	"20/6/2019"	"0"	"0"	"0"	"Up Progress To 100 %"	"Dear Bu Hanny,
+
+Tolong bisa dicek kembali untuk print nya, Saya coba dengan database dan source per tanggal 20 Juni 2019 tidak ada kendala untuk kasus yang disampaikan dengan nomor yang sama.
+Terlampir capture nya dari form dan print out nya.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"1277"	"T201905020102"	"20/6/2019 11:49:30"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0014"
+"1278"	"T201905020102"	"20/6/2019 11:50:58"	"20/6/2019"	"0"	"0"	"0"	"Up Progress To 100 %"	"Dear Bu Hanny,
+
+Tolong cek kembali untuk hal ini, saya coba dengan source terbaru per 20 Juni 2019 tidak ada kendala yang disampaikan. Terlampir capture nya dari sebelum save dan setelah save.
+
+Terima Kasih
+-Yulianto"	"U0014"
+"1279"	"T201903210092"	"9/7/2019 09:38:13"	"10/7/2019"				"Up Progress To 0 %"	"<p>Tes</p>"	"U0016"
+"1280"	"T201903210092"	"9/7/2019 09:44:42"	"13/7/2019"	"4"	"0"	"0"	"Up Progress"	"<p>Tes</p>"	"U0016"
+"1281"	"T201908120109"	"12/8/2019 11:17:31"					"Created Ticket"	"TIKET DI BUAT"	"U0002"
+"1286"	"T201908120109"	"21/8/2019 11:49:01"					"Ticket disetujui"	"TICKET DITERIMA VENDOR SUPPORT"	"U0016"
